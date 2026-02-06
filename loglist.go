@@ -17,7 +17,7 @@ const bimiV3ApprovedLogsListFilename = "files/bimi/v3/approved_logs_list.json"
 
 //go:embed files/*
 var files embed.FS
-var GstaticV3AllLogsList, AppleCurrentLogList, CrtshV3AllLogsList, MozillaV3KnownLogsList, BimiV3ApprovedLogsList *loglist3.LogList
+var GstaticV3All, AppleCurrent, CrtshV3All, MozillaV3Known, BimiV3Approved *loglist3.LogList
 var LogSignatureVerifierMap map[[sha256.Size]byte]*ctgo.SignatureVerifier
 var TemporalIntervalMap map[[sha256.Size]byte]*loglist3.TemporalInterval
 
@@ -26,36 +26,36 @@ func init() {
 	TemporalIntervalMap = make(map[[sha256.Size]byte]*loglist3.TemporalInterval)
 }
 
-func LoadLogLists() error {
+func Load() error {
 	var err error
 
-	if GstaticV3AllLogsList, err = loadLogList(gstaticV3AllLogsListFilename); err != nil {
+	if GstaticV3All, err = loadLogList(gstaticV3AllLogsListFilename); err != nil {
 		return err
-	} else if err = addSignatureVerifiersForLogList(GstaticV3AllLogsList); err != nil {
-		return err
-	}
-
-	if AppleCurrentLogList, err = loadLogList(appleCurrentLogListFilename); err != nil {
-		return err
-	} else if err = addSignatureVerifiersForLogList(AppleCurrentLogList); err != nil {
+	} else if err = addSignatureVerifiersForLogList(GstaticV3All); err != nil {
 		return err
 	}
 
-	if CrtshV3AllLogsList, err = loadLogList(crtshV3AllLogsListFilename); err != nil {
+	if AppleCurrent, err = loadLogList(appleCurrentLogListFilename); err != nil {
 		return err
-	} else if err = addSignatureVerifiersForLogList(CrtshV3AllLogsList); err != nil {
-		return err
-	}
-
-	if MozillaV3KnownLogsList, err = loadLogList(mozillaV3KnownLogsListFilename); err != nil {
-		return err
-	} else if err = addSignatureVerifiersForLogList(MozillaV3KnownLogsList); err != nil {
+	} else if err = addSignatureVerifiersForLogList(AppleCurrent); err != nil {
 		return err
 	}
 
-	if BimiV3ApprovedLogsList, err = loadLogList(bimiV3ApprovedLogsListFilename); err != nil {
+	if CrtshV3All, err = loadLogList(crtshV3AllLogsListFilename); err != nil {
 		return err
-	} else if err = addSignatureVerifiersForLogList(BimiV3ApprovedLogsList); err != nil {
+	} else if err = addSignatureVerifiersForLogList(CrtshV3All); err != nil {
+		return err
+	}
+
+	if MozillaV3Known, err = loadLogList(mozillaV3KnownLogsListFilename); err != nil {
+		return err
+	} else if err = addSignatureVerifiersForLogList(MozillaV3Known); err != nil {
+		return err
+	}
+
+	if BimiV3Approved, err = loadLogList(bimiV3ApprovedLogsListFilename); err != nil {
+		return err
+	} else if err = addSignatureVerifiersForLogList(BimiV3Approved); err != nil {
 		return err
 	}
 
