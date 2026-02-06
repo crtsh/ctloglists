@@ -1,4 +1,4 @@
-package ctlint
+package ctloglists
 
 import (
 	"crypto/sha256"
