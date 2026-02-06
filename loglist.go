@@ -17,45 +17,45 @@ const bimiV3ApprovedLogsListFilename = "files/bimi/v3/approved_logs_list.json"
 
 //go:embed files/*
 var files embed.FS
-var gstaticV3AllLogsList, appleCurrentLogList, crtshV3AllLogsList, mozillaV3KnownLogsList, bimiV3ApprovedLogsList *loglist3.LogList
-var logSignatureVerifierMap map[[sha256.Size]byte]*ctgo.SignatureVerifier
-var temporalIntervalMap map[[sha256.Size]byte]*loglist3.TemporalInterval
+var GstaticV3AllLogsList, AppleCurrentLogList, CrtshV3AllLogsList, MozillaV3KnownLogsList, BimiV3ApprovedLogsList *loglist3.LogList
+var LogSignatureVerifierMap map[[sha256.Size]byte]*ctgo.SignatureVerifier
+var TemporalIntervalMap map[[sha256.Size]byte]*loglist3.TemporalInterval
 
 func init() {
-	logSignatureVerifierMap = make(map[[sha256.Size]byte]*ctgo.SignatureVerifier)
-	temporalIntervalMap = make(map[[sha256.Size]byte]*loglist3.TemporalInterval)
+	LogSignatureVerifierMap = make(map[[sha256.Size]byte]*ctgo.SignatureVerifier)
+	TemporalIntervalMap = make(map[[sha256.Size]byte]*loglist3.TemporalInterval)
 }
 
 func LoadLogLists() error {
 	var err error
 
-	if gstaticV3AllLogsList, err = loadLogList(gstaticV3AllLogsListFilename); err != nil {
+	if GstaticV3AllLogsList, err = loadLogList(gstaticV3AllLogsListFilename); err != nil {
 		return err
-	} else if err = addSignatureVerifiersForLogList(gstaticV3AllLogsList); err != nil {
-		return err
-	}
-
-	if appleCurrentLogList, err = loadLogList(appleCurrentLogListFilename); err != nil {
-		return err
-	} else if err = addSignatureVerifiersForLogList(appleCurrentLogList); err != nil {
+	} else if err = addSignatureVerifiersForLogList(GstaticV3AllLogsList); err != nil {
 		return err
 	}
 
-	if crtshV3AllLogsList, err = loadLogList(crtshV3AllLogsListFilename); err != nil {
+	if AppleCurrentLogList, err = loadLogList(appleCurrentLogListFilename); err != nil {
 		return err
-	} else if err = addSignatureVerifiersForLogList(crtshV3AllLogsList); err != nil {
-		return err
-	}
-
-	if mozillaV3KnownLogsList, err = loadLogList(mozillaV3KnownLogsListFilename); err != nil {
-		return err
-	} else if err = addSignatureVerifiersForLogList(mozillaV3KnownLogsList); err != nil {
+	} else if err = addSignatureVerifiersForLogList(AppleCurrentLogList); err != nil {
 		return err
 	}
 
-	if bimiV3ApprovedLogsList, err = loadLogList(bimiV3ApprovedLogsListFilename); err != nil {
+	if CrtshV3AllLogsList, err = loadLogList(crtshV3AllLogsListFilename); err != nil {
 		return err
-	} else if err = addSignatureVerifiersForLogList(bimiV3ApprovedLogsList); err != nil {
+	} else if err = addSignatureVerifiersForLogList(CrtshV3AllLogsList); err != nil {
+		return err
+	}
+
+	if MozillaV3KnownLogsList, err = loadLogList(mozillaV3KnownLogsListFilename); err != nil {
+		return err
+	} else if err = addSignatureVerifiersForLogList(MozillaV3KnownLogsList); err != nil {
+		return err
+	}
+
+	if BimiV3ApprovedLogsList, err = loadLogList(bimiV3ApprovedLogsListFilename); err != nil {
+		return err
+	} else if err = addSignatureVerifiersForLogList(BimiV3ApprovedLogsList); err != nil {
 		return err
 	}
 
@@ -77,23 +77,23 @@ func populateMaps(logPublicKey []byte, ti *loglist3.TemporalInterval) error {
 	}
 
 	logID := sha256.Sum256(logPublicKey)
-	if logSignatureVerifierMap[logID] == nil {
+	if LogSignatureVerifierMap[logID] == nil {
 		sv, err := ctgo.NewSignatureVerifier(publicKey)
 		if err != nil {
 			return err
 		}
-		logSignatureVerifierMap[logID] = sv
+		LogSignatureVerifierMap[logID] = sv
 	}
 
 	if ti != nil {
-		if temporalIntervalMap[logID] == nil {
-			temporalIntervalMap[logID] = ti
+		if TemporalIntervalMap[logID] == nil {
+			TemporalIntervalMap[logID] = ti
 		} else {
-			if ti.StartInclusive.After(temporalIntervalMap[logID].StartInclusive) {
-				temporalIntervalMap[logID].StartInclusive = ti.StartInclusive
+			if ti.StartInclusive.After(TemporalIntervalMap[logID].StartInclusive) {
+				TemporalIntervalMap[logID].StartInclusive = ti.StartInclusive
 			}
-			if ti.EndExclusive.Before(temporalIntervalMap[logID].EndExclusive) {
-				temporalIntervalMap[logID].EndExclusive = ti.EndExclusive
+			if ti.EndExclusive.Before(TemporalIntervalMap[logID].EndExclusive) {
+				TemporalIntervalMap[logID].EndExclusive = ti.EndExclusive
 			}
 		}
 	}
