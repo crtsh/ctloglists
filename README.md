@@ -11,11 +11,13 @@ CT log list tracker
     - Mozilla [Known CT Logs](https://wiki.mozilla.org/SecurityEngineering/Certificate_Transparency#Known_CT_Logs)
   - For Mark Certificates:
     - BIMIGroup [Approved CT Logs (see Appendix F)](https://bimigroup.org/resources/VMC_Requirements_latest.pdf).
-  - And also:
+  - Also:
     - crt.sh [logs.json?include=all](https://crt.sh/v3/logs.json?include=all)
+    - Chrome ["log mimics"](https://groups.google.com/a/chromium.org/g/ct-policy/c/qY3aOKr5-sU/m/P4nzWuNHCwAJ)
 
 - Automated handling of log list updates, via GitHub Actions.
 
 ## Used by
 
 - [ctlint](https://github.com/crtsh/ctlint): CT compliance linter.
+- [ctsubmit](https://github.com/crtsh/ctsubmit): CT submission proxy.
