@@ -1,0 +1,52 @@
+{
+  "operators": [
+    {
+      "name": "Mimic Operator 1",
+      "email": [
+        "no-reply@example.com"
+      ],
+      "logs": [
+        {
+          "description": "Mimic 1",
+          "log_id": "9EGV1vAOLbVUNcrdV3iS5T4VrUFwWPh44U/2uRh0FYk=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdO/+dnH/NZSBSLmmN9u2h4HNTnCOLeU+oMBiRynIvQ8zt2ft0IMyO90e5nwSaCdYvA4JVGzCMarfs9DcNxFY1g==",
+          "url": "https://ct-mimics.example.com/mimic1/",
+          "mmd": 86400,
+          "state": {
+            "usable": {
+              "timestamp": "2026-01-01T00:00:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2025-01-01T00:00:00Z",
+            "end_exclusive": "2042-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mimic Operator 2",
+      "email": [
+        "no-reply@example.com"
+      ],
+      "logs": [
+        {
+          "description": "Mimic 2",
+          "log_id": "si9+3rWvav5QPeBAgbLXTBJThJL+3yyypSZQPO9TztI=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEB/VtcL7BSbGP4QY7UjaaXOd4gQ80R1PxLZtfYifk+ZER+mCVJVVjl66uVWUzu5lMbWMb1MWKxjkvtd2MyQSKsA==",
+          "url": "https://ct-mimics.example.com/mimic2/",
+          "mmd": 86400,
+          "state": {
+            "usable": {
+              "timestamp": "2026-01-01T00:00:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2025-01-01T00:00:00Z",
+            "end_exclusive": "2042-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

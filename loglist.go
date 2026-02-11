@@ -14,10 +14,11 @@ const appleCurrentLogListFilename = "files/apple/current_log_list.json"
 const crtshV3AllLogsListFilename = "files/crtsh/v3/all_logs_list.json"
 const mozillaV3KnownLogsListFilename = "files/mozilla/v3/known_logs_list.json"
 const bimiV3ApprovedLogsListFilename = "files/bimi/v3/approved_logs_list.json"
+const logMimicsListFilename = "files/mimics/log_mimics_list.json"
 
 //go:embed files/*
 var files embed.FS
-var GstaticV3All, AppleCurrent, CrtshV3All, MozillaV3Known, BimiV3Approved *loglist3.LogList
+var GstaticV3All, AppleCurrent, CrtshV3All, MozillaV3Known, BimiV3Approved, LogMimics *loglist3.LogList
 var LogSignatureVerifierMap map[[sha256.Size]byte]*ctgo.SignatureVerifier
 var TemporalIntervalMap map[[sha256.Size]byte]*loglist3.TemporalInterval
 
@@ -56,6 +57,12 @@ func Load() error {
 	if BimiV3Approved, err = loadLogList(bimiV3ApprovedLogsListFilename); err != nil {
 		return err
 	} else if err = addSignatureVerifiersForLogList(BimiV3Approved); err != nil {
+		return err
+	}
+
+	if LogMimics, err = loadLogList(logMimicsListFilename); err != nil {
+		return err
+	} else if err = addSignatureVerifiersForLogList(LogMimics); err != nil {
 		return err
 	}
 
