@@ -13,7 +13,7 @@ CT log list tracker
     - BIMIGroup [Approved CT Logs (see Appendix F)](https://bimigroup.org/resources/VMC_Requirements_latest.pdf).
   - Also:
     - crt.sh [logs.json?include=all](https://crt.sh/v3/logs.json?include=all)
-    - Chrome ["log mimics"](https://groups.google.com/a/chromium.org/g/ct-policy/c/qY3aOKr5-sU/m/P4nzWuNHCwAJ)
+    - Chrome ["log mimics"](https://googlechrome.github.io/CertificateTransparency/3p_libraries.html#freezing-log-lists-and-adding-mimic-logs)
 
 - Automated handling of log list updates, via GitHub Actions.
 
