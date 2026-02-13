@@ -141,7 +141,7 @@ func downloadRoots(baseURL string) {
 		logInfo[baseURL].AcceptedRoots = string(body)
 		mutex.Unlock()
 
-		fmt.Printf("Successfully downloaded accepted roots from %s/ct/v1/get-roots\n", baseURL)
+		fmt.Printf("Successfully downloaded accepted roots from %s/ct/v1/get-roots\n", url)
 		return
 
 	retry:
