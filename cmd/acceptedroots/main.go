@@ -60,11 +60,11 @@ func main() {
 	wg.Wait()
 
 	for logBaseURL, li := range logInfo {
-		fmt.Printf("Roots from %s (Log ID: %s): %d bytes\n", logBaseURL, li.LogID, len(li.AcceptedRoots))
+		fmt.Printf("Accepted roots from %s (Log ID: %s): %d bytes\n", logBaseURL, li.LogID, len(li.AcceptedRoots))
 		writeRootsToFile(logBaseURL, li)
 	}
 
-	fmt.Printf("\nDownload complete. Retrieved roots from %d logs.\n", len(logInfo))
+	fmt.Printf("\nDownload complete. Retrieved accepted roots from %d logs.\n", len(logInfo))
 }
 
 func loadLogBaseURLs(logList *loglist3.LogList) {
@@ -141,7 +141,7 @@ func downloadRoots(baseURL string) {
 		logInfo[baseURL].AcceptedRoots = string(body)
 		mutex.Unlock()
 
-		fmt.Printf("Successfully downloaded roots from %s\n", baseURL)
+		fmt.Printf("Successfully downloaded accepted roots from %s/ct/v1/get-roots\n", baseURL)
 		return
 
 	retry:
@@ -149,7 +149,7 @@ func downloadRoots(baseURL string) {
 			time.Sleep(retryDelay)
 			continue
 		}
-		fmt.Printf("Failed to download roots from %s after %d attempts\n", url, maxAttempts)
+		fmt.Printf("Failed to download accepted roots from %s after %d attempts\n", url, maxAttempts)
 		return
 	}
 }
