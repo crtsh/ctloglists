@@ -36,14 +36,14 @@ jobs:
         git fetch origin main
         if [[ $(git diff -U0 "*.json" | grep "^\+\s" | grep -v "\"version\"" | grep -v "\"log_list_timestamp\"") ]]; then
           echo "At least one log list has been updated substantively"
-          echo "log_list_updated=true" >> $GITHUB_ENV
+          echo "updated=true" >> $GITHUB_OUTPUT
         else
           echo "No log lists have been updated"
-          echo "log_list_updated=false" >> $GITHUB_ENV
+          echo "updated=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Create Pull Request
-      if: env.log_list_updated == 'true'
+      if: steps.check_changes.outputs.updated == 'true'
       uses: peter-evans/create-pull-request@v8
       with:
         token: ${{ secrets.GITHUB_TOKEN }}

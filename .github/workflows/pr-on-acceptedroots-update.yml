@@ -34,16 +34,16 @@ jobs:
       id: check_changes
       run: |
         git fetch origin main
-        if [[ $(git diff --staged -U0 "*.pem") ]]; then
+        if [[ $(git diff --staged -U0 "files/acceptedroots/*.pem") ]]; then
           echo "At least one log's Accepted Roots have been updated"
-          echo "accepted_roots_updated=true" >> $GITHUB_ENV
+          echo "updated=true" >> $GITHUB_OUTPUT
         else
           echo "No logs' Accepted Roots have been updated"
-          echo "accepted_roots_updated=false" >> $GITHUB_ENV
+          echo "updated=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Create Pull Request
-      if: env.accepted_roots_updated == 'true'
+      if: steps.check_changes.outputs.updated == 'true'
       uses: peter-evans/create-pull-request@v8
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
