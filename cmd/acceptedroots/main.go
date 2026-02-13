@@ -188,20 +188,19 @@ func writeRootsToFile(baseURL string, li *LogInfo) {
 
 	// Write the PEM-encoded certificate list to a file. This step deduplicates lists shared by multiple logs/shards.
 	sha256PEMData := sha256.Sum256([]byte(pemData.String()))
-	filename := "roots_" + hex.EncodeToString(sha256PEMData[:]) + ".pem"
-	err = os.WriteFile(filename, []byte(pemData.String()), 0644)
-	if err != nil {
-		fmt.Printf("Error writing file %s: %v\n", filename, err)
+	filename1 := "roots_" + hex.EncodeToString(sha256PEMData[:]) + ".pem"
+	if err = os.WriteFile(filename1, []byte(pemData.String()), 0644); err != nil {
+		fmt.Printf("Error writing file %s: %v\n", filename1, err)
 		return
 	}
 
-	// Create a symbolic link for this log's accepted roots file.
-	linkName := "log_" + li.LogID + ".pem"
-	os.Remove(linkName) // Remove if it already exists, to avoid error when creating symlink.
-	if err = os.Symlink(filename, linkName); err != nil {
-		fmt.Printf("Error creating symlink %s -> %s: %v\n", linkName, filename, err)
+	// Write the hash of the Accepted Roots list to a file.
+	// (A symlink would be tidier, but unfortunately go:embed doesn't support them).
+	filename2 := "log_" + li.LogID + ".pem"
+	if err = os.WriteFile(filename2, []byte(sha256PEMData[:]), 0644); err != nil {
+		fmt.Printf("Error writing file %s: %v\n", filename2, err)
 		return
 	}
 
-	fmt.Printf("Wrote roots to %s (linked from %s)\n", filename, linkName)
+	fmt.Printf("Wrote %s and %s\n", filename1, filename2)
 }
