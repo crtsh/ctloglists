@@ -196,8 +196,8 @@ func writeRootsToFile(baseURL string, li *LogInfo) {
 
 	// Write the hash of the Accepted Roots list to a file.
 	// (A symlink would be tidier, but unfortunately go:embed doesn't support them).
-	filename2 := "log_" + li.LogID + ".pem"
-	if err = os.WriteFile(filename2, []byte(sha256PEMData[:]), 0644); err != nil {
+	filename2 := "log_" + li.LogID + ".txt"
+	if err = os.WriteFile(filename2, []byte(hex.EncodeToString(sha256PEMData[:])), 0644); err != nil {
 		fmt.Printf("Error writing file %s: %v\n", filename2, err)
 		return
 	}

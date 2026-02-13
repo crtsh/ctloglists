@@ -89,8 +89,12 @@ func loadAcceptedRoots() error {
 				var logID [sha256.Size]byte
 				copy(logID[:], decodedHash)
 				if data, err := files.ReadFile(acceptedRootsDir + "/" + file.Name()); err == nil {
+					var decoded []byte
+					if decoded, err = hex.DecodeString(string(data)); err != nil {
+						return err
+					}
 					var rootsListHash [sha256.Size]byte
-					copy(rootsListHash[:], data)
+					copy(rootsListHash[:], decoded)
 					LogAcceptedRootsMap[logID] = rootsListHash
 				} else {
 					return err

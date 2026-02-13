@@ -8,10 +8,11 @@ go run main.go
 
 mkdir -p ../../files/acceptedroots
 cd ../../files/acceptedroots
-git restore --staged *.pem
-git rm *.pem
-rm *.pem
+git restore --staged *.pem *.txt
+git rm *.pem *.txt
+rm *.pem *.txt
 mv $SCRIPT_DIR/*.pem .
-git add *.pem
+mv $SCRIPT_DIR/*.txt .
+git add *.pem *.txt
 
 cd $CWD
