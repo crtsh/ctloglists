@@ -1,4 +1,4 @@
-name: Scheduled check and PR creation on log list update
+name: PR on Log List update
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ on:
 jobs:
   check_release:
     runs-on: ubuntu-latest
-    name: Hourly check for log list updates
+    name: Hourly check for updates to Log Lists
 
     steps:
     - name: Checkout this repo
@@ -22,7 +22,7 @@ jobs:
     - name: Setup git
       run: |
           git config --global user.email "gh@crt.sh"
-          git config --global user.name "ctlint"
+          git config --global user.name "ctloglists"
 
     - name: Fetch all branches
       run: git fetch origin

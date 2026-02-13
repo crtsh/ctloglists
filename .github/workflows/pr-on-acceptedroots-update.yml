@@ -1,0 +1,54 @@
+name: PR on Accepted Roots update
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  schedule:
+    # Run Hourly
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check_release:
+    runs-on: ubuntu-latest
+    name: Hourly check for updates to logs' Accepted Roots
+
+    steps:
+    - name: Checkout this repo
+      uses: actions/checkout@v6
+
+    - name: Setup git
+      run: |
+          git config --global user.email "gh@crt.sh"
+          git config --global user.name "ctloglists"
+
+    - name: Fetch all branches
+      run: git fetch origin
+
+    - name: Run check_for_acceptedroots_changes.sh
+      run: chmod +x cmd/acceptedroots/check_for_acceptedroots_changes.sh; cmd/acceptedroots/check_for_acceptedroots_changes.sh
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        git fetch origin main
+        if [[ $(git diff --staged -U0 "*.pem") ]]; then
+          echo "At least one log's Accepted Roots have been updated"
+          echo "accepted_roots_updated=true" >> $GITHUB_ENV
+        else
+          echo "No log lists have been updated"
+          echo "accepted_roots_updated=false" >> $GITHUB_ENV
+        fi
+
+    - name: Create Pull Request
+      if: env.accepted_roots_updated == 'true'
+      uses: peter-evans/create-pull-request@v8
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        base: main
+        branch: auto-accepted-roots-update
+        title: "Accepted Roots update"
+        body: "This pull request was automatically created due to an Accepted Roots update."
+        commit-message: Accepted Roots update
