@@ -7,4 +7,4 @@ require (
 	software.sslmate.com/src/certspotter v0.24.0
 )
 
-require golang.org/x/crypto v0.47.0 // indirect
+require golang.org/x/crypto v0.48.0 // indirect
