@@ -38,7 +38,7 @@ jobs:
           echo "At least one log's Accepted Roots have been updated"
           echo "accepted_roots_updated=true" >> $GITHUB_ENV
         else
-          echo "No log lists have been updated"
+          echo "No logs' Accepted Roots have been updated"
           echo "accepted_roots_updated=false" >> $GITHUB_ENV
         fi
 
