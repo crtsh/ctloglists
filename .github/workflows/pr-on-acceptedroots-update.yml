@@ -34,7 +34,7 @@ jobs:
       id: check_changes
       run: |
         git fetch origin main
-        if [[ $(git diff --staged -U0 "files/acceptedroots/*.pem") ]]; then
+        if [[ $(git diff --staged -U0 "files/acceptedroots/*") ]]; then
           echo "At least one log's Accepted Roots have been updated"
           echo "updated=true" >> $GITHUB_OUTPUT
         else
