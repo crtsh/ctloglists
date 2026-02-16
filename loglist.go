@@ -36,17 +36,15 @@ func init() {
 	LogAcceptedRootsMap = make(map[[sha256.Size]byte][sha256.Size]byte)
 }
 
-func Load() error {
+func LoadLogLists() error {
 	var err error
 
-	if err = loadAcceptedRoots(); err == nil {
-		if GstaticV3All, err = loadLogList(gstaticV3AllLogsListFilename); err == nil {
-			if AppleCurrent, err = loadLogList(appleCurrentLogListFilename); err == nil {
-				if CrtshV3All, err = loadLogList(crtshV3AllLogsListFilename); err == nil {
-					if MozillaV3Known, err = loadLogList(mozillaV3KnownLogsListFilename); err == nil {
-						if BimiV3Approved, err = loadLogList(bimiV3ApprovedLogsListFilename); err == nil {
-							LogMimics, err = loadLogList(logMimicsListFilename)
-						}
+	if GstaticV3All, err = loadLogList(gstaticV3AllLogsListFilename); err == nil {
+		if AppleCurrent, err = loadLogList(appleCurrentLogListFilename); err == nil {
+			if CrtshV3All, err = loadLogList(crtshV3AllLogsListFilename); err == nil {
+				if MozillaV3Known, err = loadLogList(mozillaV3KnownLogsListFilename); err == nil {
+					if BimiV3Approved, err = loadLogList(bimiV3ApprovedLogsListFilename); err == nil {
+						LogMimics, err = loadLogList(logMimicsListFilename)
 					}
 				}
 			}
@@ -56,7 +54,7 @@ func Load() error {
 	return err
 }
 
-func loadAcceptedRoots() error {
+func LoadAcceptedRoots() error {
 	if dirEntry, err := files.ReadDir(acceptedRootsDir); err != nil {
 		return err
 	} else {

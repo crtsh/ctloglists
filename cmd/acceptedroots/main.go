@@ -41,7 +41,7 @@ func init() {
 }
 
 func main() {
-	if err := ctloglists.Load(); err != nil {
+	if err := ctloglists.LoadLogLists(); err != nil {
 		panic(err)
 	}
 

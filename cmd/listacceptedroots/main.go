@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	if err := ctloglists.Load(); err != nil {
+	if err := ctloglists.LoadAcceptedRoots(); err != nil {
 		panic(err)
 	}
 
