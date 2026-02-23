@@ -70,32 +70,12 @@ func main() {
 func loadLogBaseURLs(logList *loglist3.LogList) {
 	for _, operator := range logList.Operators {
 		for _, log := range operator.Logs {
-			includeThisLog := false
-			if log.State != nil && (log.State.Usable != nil || log.State.Qualified != nil) {
-				includeThisLog = true
-			} else if log.TemporalInterval != nil && log.TemporalInterval.EndExclusive.After(time.Now()) {
-				switch log.Type {
-				case "", "prod", "production":
-				default: // test, monitoring_only.
-					includeThisLog = true
-				}
-			}
-			if includeThisLog {
+			if (log.State != nil && (log.State.Usable != nil || log.State.Qualified != nil)) || !strings.HasPrefix(log.Type, "prod") {
 				logInfo[log.URL] = &LogInfo{LogID: hex.EncodeToString(log.LogID), AcceptedRoots: ""}
 			}
 		}
 		for _, tiledLog := range operator.TiledLogs {
-			includeThisLog := false
-			if tiledLog.State != nil && (tiledLog.State.Usable != nil || tiledLog.State.Qualified != nil) {
-				includeThisLog = true
-			} else if tiledLog.TemporalInterval != nil && tiledLog.TemporalInterval.EndExclusive.After(time.Now()) {
-				switch tiledLog.Type {
-				case "", "prod", "production":
-				default: // test, monitoring_only.
-					includeThisLog = true
-				}
-			}
-			if includeThisLog {
+			if (tiledLog.State != nil && (tiledLog.State.Usable != nil || tiledLog.State.Qualified != nil)) || !strings.HasPrefix(tiledLog.Type, "prod") {
 				logInfo[tiledLog.SubmissionURL] = &LogInfo{LogID: hex.EncodeToString(tiledLog.LogID), AcceptedRoots: ""}
 			}
 		}
