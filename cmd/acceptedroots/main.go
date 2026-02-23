@@ -70,12 +70,12 @@ func main() {
 func loadLogBaseURLs(logList *loglist3.LogList) {
 	for _, operator := range logList.Operators {
 		for _, log := range operator.Logs {
-			if (log.State != nil && (log.State.Usable != nil || log.State.Qualified != nil)) || !strings.HasPrefix(log.Type, "prod") {
+			if (log.State != nil && (log.State.Pending != nil || log.State.Qualified != nil || log.State.Usable != nil)) || !strings.HasPrefix(log.Type, "prod") {
 				logInfo[log.URL] = &LogInfo{LogID: hex.EncodeToString(log.LogID), AcceptedRoots: ""}
 			}
 		}
 		for _, tiledLog := range operator.TiledLogs {
-			if (tiledLog.State != nil && (tiledLog.State.Usable != nil || tiledLog.State.Qualified != nil)) || !strings.HasPrefix(tiledLog.Type, "prod") {
+			if (tiledLog.State != nil && (tiledLog.State.Pending != nil || tiledLog.State.Qualified != nil || tiledLog.State.Usable != nil)) || !strings.HasPrefix(tiledLog.Type, "prod") {
 				logInfo[tiledLog.SubmissionURL] = &LogInfo{LogID: hex.EncodeToString(tiledLog.LogID), AcceptedRoots: ""}
 			}
 		}
