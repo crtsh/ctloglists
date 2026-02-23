@@ -16,14 +16,15 @@ import (
 const acceptedRootsDir = "files/acceptedroots"
 const gstaticV3AllLogsListFilename = "files/gstatic/v3/all_logs_list.json"
 const appleCurrentLogListFilename = "files/apple/current_log_list.json"
-const crtshV3AllLogsListFilename = "files/crtsh/v3/all_logs_list.json"
+const crtshV3AllLogsListFilename = "files/crtsh/v3/all/all_logs_list.json"
+const crtshV3ActiveLogsListFilename = "files/crtsh/v3/active/active_logs_list.json"
 const mozillaV3KnownLogsListFilename = "files/mozilla/v3/known_logs_list.json"
 const bimiV3ApprovedLogsListFilename = "files/bimi/v3/approved_logs_list.json"
 const logMimicsListFilename = "files/mimics/log_mimics_list.json"
 
 //go:embed files/*
 var files embed.FS
-var GstaticV3All, AppleCurrent, CrtshV3All, MozillaV3Known, BimiV3Approved, LogMimics *loglist3.LogList
+var GstaticV3All, AppleCurrent, CrtshV3All, CrtshV3Active, MozillaV3Known, BimiV3Approved, LogMimics *loglist3.LogList
 var LogSignatureVerifierMap map[[sha256.Size]byte]*ctgo.SignatureVerifier
 var TemporalIntervalMap map[[sha256.Size]byte]*loglist3.TemporalInterval
 var AcceptedRootsMap map[[sha256.Size]byte]*x509util.PEMCertPool
@@ -42,9 +43,11 @@ func LoadLogLists() error {
 	if GstaticV3All, err = loadLogList(gstaticV3AllLogsListFilename); err == nil {
 		if AppleCurrent, err = loadLogList(appleCurrentLogListFilename); err == nil {
 			if CrtshV3All, err = loadLogList(crtshV3AllLogsListFilename); err == nil {
-				if MozillaV3Known, err = loadLogList(mozillaV3KnownLogsListFilename); err == nil {
-					if BimiV3Approved, err = loadLogList(bimiV3ApprovedLogsListFilename); err == nil {
-						LogMimics, err = loadLogList(logMimicsListFilename)
+				if CrtshV3Active, err = loadLogList(crtshV3ActiveLogsListFilename); err == nil {
+					if MozillaV3Known, err = loadLogList(mozillaV3KnownLogsListFilename); err == nil {
+						if BimiV3Approved, err = loadLogList(bimiV3ApprovedLogsListFilename); err == nil {
+							LogMimics, err = loadLogList(logMimicsListFilename)
+						}
 					}
 				}
 			}
