@@ -33,10 +33,19 @@ else
 fi
 
 echo
-mkdir -p files/crtsh/v3
+mkdir -p files/crtsh/v3/all
 wget -nv -O "$LOGLIST" https://crt.sh/v3/logs.json?include=all
 if [ $? -eq 0 ]; then
-  mv "$LOGLIST" files/crtsh/v3/all_logs_list.json
+  mv "$LOGLIST" files/crtsh/v3/all/all_logs_list.json
+else
+  echo "Failed to download log list"
+fi
+
+echo
+mkdir -p files/crtsh/v3/active
+wget -nv -O "$LOGLIST" https://crt.sh/v3/logs.json?include=active
+if [ $? -eq 0 ]; then
+  mv "$LOGLIST" files/crtsh/v3/active/active_logs_list.json
 else
   echo "Failed to download log list"
 fi
