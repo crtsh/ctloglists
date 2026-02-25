@@ -45,12 +45,19 @@ func main() {
 		panic(err)
 	}
 
-	// Get the full list of unique log base URLs.
-	loadLogBaseURLs(ctloglists.GstaticV3All)
-	loadLogBaseURLs(ctloglists.AppleCurrent)
-	loadLogBaseURLs(ctloglists.CrtshV3All)
+	// Get the full list of unique base URLs of active logs.
+	chromeActiveLogs := ctloglists.GstaticV3All.SelectByStatus([]loglist3.LogStatus{loglist3.PendingLogStatus, loglist3.QualifiedLogStatus, loglist3.UsableLogStatus})
+	loadLogBaseURLs(&chromeActiveLogs)
+
+	appleActiveLogs := ctloglists.AppleCurrent.SelectByStatus([]loglist3.LogStatus{loglist3.PendingLogStatus, loglist3.QualifiedLogStatus, loglist3.UsableLogStatus})
+	loadLogBaseURLs(&appleActiveLogs)
+
+	loadLogBaseURLs(ctloglists.CrtshV3Active)
+
 	// ctloglists.MozillaV3Known doesn't include the log base URLs, and it's expected to track Chrome's log list anyway.
-	loadLogBaseURLs(ctloglists.BimiV3Approved)
+
+	bimiActiveLogs := ctloglists.BimiV3Approved.SelectByStatus([]loglist3.LogStatus{loglist3.PendingLogStatus, loglist3.QualifiedLogStatus, loglist3.UsableLogStatus})
+	loadLogBaseURLs(&bimiActiveLogs)
 
 	// Download the accepted roots from each log's get-roots endpoint in parallel.
 	for li := range logInfo {
