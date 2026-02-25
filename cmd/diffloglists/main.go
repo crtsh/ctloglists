@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/crtsh/ctloglists"
+
 	"github.com/google/certificate-transparency-go/loglist3"
 )
 
@@ -126,4 +127,51 @@ func main() {
 			}
 		}
 	}
+
+	fmt.Printf("\nTemporal Period differences between %s and %s:\n", arg1, arg2)
+	for _, operator := range ll1.Operators {
+		for _, log1 := range operator.Logs {
+			log2 := ll2.FindLogByKey(log1.Key)
+			if log2 != nil {
+				logType := ""
+				if log1.Type != "" {
+					logType = fmt.Sprintf("[%s] ", log1.Type)
+				}
+				period1 := log1.TemporalInterval
+				period2 := log2.TemporalInterval
+				if !temporalIntervalsEqual(period1, period2) {
+					fmt.Printf("- %s%s: %s vs %s\n", logType, log1.URL, temporalIntervalString(period1), temporalIntervalString(period2))
+				}
+			}
+		}
+		for _, log1 := range operator.TiledLogs {
+			log2 := ll2.FindTiledLogByKey(log1.Key)
+			if log2 != nil {
+				logType := ""
+				if log1.Type != "" {
+					logType = fmt.Sprintf("[%s] ", log1.Type)
+				}
+				period1 := log1.TemporalInterval
+				period2 := log2.TemporalInterval
+				if !temporalIntervalsEqual(period1, period2) {
+					fmt.Printf("- %s%s: %s vs %s\n", logType, log1.SubmissionURL, temporalIntervalString(period1), temporalIntervalString(period2))
+				}
+			}
+		}
+	}
+
+}
+
+func temporalIntervalsEqual(a, b *loglist3.TemporalInterval) bool {
+	if a == nil || b == nil {
+		return a == b
+	}
+	return a.StartInclusive.Equal(b.StartInclusive) && a.EndExclusive.Equal(b.EndExclusive)
+}
+
+func temporalIntervalString(ti *loglist3.TemporalInterval) string {
+	if ti == nil {
+		return "<none>"
+	}
+	return fmt.Sprintf("[%s, %s)", ti.StartInclusive.Format("2006-01-02T15:04:05Z07:00"), ti.EndExclusive.Format("2006-01-02T15:04:05Z07:00"))
 }
