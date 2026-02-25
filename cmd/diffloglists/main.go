@@ -159,7 +159,6 @@ func main() {
 			}
 		}
 	}
-
 }
 
 func temporalIntervalsEqual(a, b *loglist3.TemporalInterval) bool {
