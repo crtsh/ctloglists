@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "84.12",
-  "log_list_timestamp": "2026-02-24T12:53:50Z",
+  "version": "84.14",
+  "log_list_timestamp": "2026-02-26T12:53:58Z",
   "operators": [
     {
       "name": "Google",
@@ -882,8 +882,8 @@
           "monitoring_url": "https://raio2026h1a.ct.cloudflare.com/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2025-08-06T20:00:00Z"
+            "rejected": {
+              "timestamp": "2026-02-26T22:00:00Z"
             }
           },
           "temporal_interval": {
@@ -899,8 +899,8 @@
           "monitoring_url": "https://raio2026h2a.ct.cloudflare.com/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2025-08-06T20:00:00Z"
+            "rejected": {
+              "timestamp": "2026-02-26T22:00:00Z"
             }
           },
           "temporal_interval": {
@@ -916,8 +916,8 @@
           "monitoring_url": "https://raio2027h1a.ct.cloudflare.com/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2025-08-06T20:00:00Z"
+            "rejected": {
+              "timestamp": "2026-02-26T22:00:00Z"
             }
           },
           "temporal_interval": {
@@ -933,8 +933,8 @@
           "monitoring_url": "https://raio2027h2a.ct.cloudflare.com/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2025-08-06T20:00:00Z"
+            "rejected": {
+              "timestamp": "2026-02-26T22:00:00Z"
             }
           },
           "temporal_interval": {
