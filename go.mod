@@ -2,10 +2,8 @@ module github.com/crtsh/ctloglists
 
 go 1.25.0
 
-replace github.com/google/certificate-transparency-go => github.com/robstradling/certificate-transparency-go v0.0.0-20260225152442-9af2bdaa773a
-
 require (
-	github.com/google/certificate-transparency-go v1.3.2
+	github.com/google/certificate-transparency-go v1.3.3
 	software.sslmate.com/src/certspotter v0.24.0
 )
 
