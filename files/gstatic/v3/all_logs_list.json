@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "85.2",
-  "log_list_timestamp": "2026-03-01T12:55:31Z",
+  "version": "85.24",
+  "log_list_timestamp": "2026-03-23T13:38:40Z",
   "operators": [
     {
       "name": "Google",
@@ -645,19 +645,6 @@
         }
       ],
       "tiled_logs": [
-        {
-          "description": "Google 'Arche2025h2' log",
-          "log_id": "L2UYNygi6ysgrNQ0osu5ivLTWAzifbdx/LfHcYDhOi4=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGbSp66Dmq0b3QILTYVpwRgMV9v4tYG2jqBFeWUyg46yW7QL0KbSOUZjN4PYK5dPxfamSkp8Z0JEGL7IA5X9aMg==",
-          "submission_url": "https://arche2025h2.staging.ct.transparency.dev/",
-          "monitoring_url": "https://storage.googleapis.com/static-ct-staging-arche2025h2-bucket/",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          },
-          "log_type": "monitoring_only"
-        },
         {
           "description": "Google 'Arche2026h1' log",
           "log_id": "J+sqNJffaHpkC2Q4TkhW/Nyj6H+NzWbzTtbxvkKB7fw=",
@@ -3535,19 +3522,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "IPng Networks 'Rennet2025h2'",
-          "log_id": "IPng43glrS2aHdKilIAgicJdQ80udPGVttwMe+uE2ZM=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEH+TSNzQhLhxX89oGRHuXLG00ObwEnKlMZ+HHHDIFKvw2eTrKePHwWDh/yDo8A/vA0bfVheIkQtgfwoQbaLl6Ow==",
-          "submission_url": "https://rennet2025h2.log.ct.ipng.ch/",
-          "monitoring_url": "https://rennet2025h2.mon.ct.ipng.ch/",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          },
-          "log_type": "monitoring_only"
-        },
-        {
           "description": "IPng Networks 'Rennet2026h1'",
           "log_id": "IPng7N+kfJEgOWLvg8kCWPeQbZ03SYvh/9hJVBcyCyA=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjjELwgGMea6d7YAOP1h1Q3z5IGFOFV/kmbT0qdRgMbhQCYZdDU/fObbHf7dPEGjlg/XbBCnmHJKJySK85tzC2w==",
@@ -3596,19 +3570,6 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
-          },
-          "log_type": "monitoring_only"
-        },
-        {
-          "description": "IPng Networks 'Lipase2025h2'",
-          "log_id": "+aEI1Vq8bDZUG/1vReL3fh66SuI7WN/b7i2cu11WxTo=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7EQwVVApz4BNqjMSRcZ1XQ734331CwWkdkELyNxCybvxqt3A5DVZpfKQKknJR3aH9bsIZKUncy9Bnh8vX5s17A==",
-          "submission_url": "https://lipase2025h2.log.ct.ipng.ch/",
-          "monitoring_url": "https://lipase2025h2.mon.ct.ipng.ch/",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
           },
           "log_type": "monitoring_only"
         },
