@@ -1392,6 +1392,43 @@
             "end_exclusive": "2026-07-01T00:00:00Z"
           },
           "log_type": "test"
+        },
+        {
+          "description": "Google CoachAndHorses 2026h1",
+          "log_id": "Ida8pGWG3oR5BIvzeNP2lqX0zFFs73zy2H/15xN0Ht0=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECHOhXfvYgTcu+Fnl7M7niFj3FgqWlQpXUSWUDw2KAaJXvhGxdJTtmyciN5rWTiDtpeNENVmsUTHFS4XQgeRE0g==",
+          "submission_url": "https://coachandhorses2026h1.staging.certificate.transparency.goog",
+          "monitoring_url": "https://storage.googleapis.com/coachandhorses2026h1.staging.certificate.transparency.goog",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-01-01T00:00:00Z",
+            "end_exclusive": "2026-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Google ParcelYard 2025h2",
+          "log_id": "NAT+bjigp++LN0smdfkvw3a0dQhGJU1BRyttJqH8TrI=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYJ9fkFeGB2QFd3G6hRZhc7AxbfunGTx5UqsR1DkEKz8xN1/WElIlYHLjB8j2+CuaMZzjEWskUA1d4GCXZ8P4tQ==",
+          "submission_url": "https://parcelyard2025h2.prod.certificate.transparency.goog",
+          "monitoring_url": "https://storage.googleapis.com/parcelyard2025h2.prod.certificate.transparency.goog",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2025-07-01T00:00:00Z",
+            "end_exclusive": "2026-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Google PlumbersArms 2025h2",
+          "log_id": "R2+xhIwFH6THm9OHe+3jwHDtxTbH17IZLcZiY5BgdTM=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECPslUBfLRjA45NDTinxAQMz3VPFQ8VdeFGQCtjXQEp8qcvYOFpXnmaT3TW4PFtGnrQK+qGPr28qCnpPTwCoE9A==",
+          "submission_url": "https://plumbersarms2025h2.prod.certificate.transparency.goog",
+          "monitoring_url": "https://storage.googleapis.com/plumbersarms2025h2.prod.certificate.transparency.goog",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2025-07-01T00:00:00Z",
+            "end_exclusive": "2026-01-01T00:00:00Z"
+          }
         }
       ]
     },
