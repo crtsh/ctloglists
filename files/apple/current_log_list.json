@@ -307,9 +307,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://raio2027h2a.ct.cloudflare.com/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-08-20T01:33:18Z",
-                            "version": "494"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:02Z",
+                            "version": "500"
                         }
                     },
                     "submission_url": "https://ct.cloudflare.com/logs/raio2027h2a/",
@@ -1577,9 +1577,9 @@
                     "log_id": "RqI5Z8YNtkaHxm89+ZmUdpOmphEghFfVVefj0KHZtkY=",
                     "mmd": 86400,
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-10T18:00:00Z",
-                            "version": "482"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:02Z",
+                            "version": "501"
                         }
                     },
                     "temporal_interval": {
@@ -1594,9 +1594,9 @@
                     "log_id": "H7D4qS2K3aEhd2wF4qouFbrLxitlOTaVV2qqtS4R0R0=",
                     "mmd": 86400,
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-10T18:00:00Z",
-                            "version": "483"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:03Z",
+                            "version": "502"
                         }
                     },
                     "temporal_interval": {
@@ -1611,9 +1611,9 @@
                     "log_id": "ABpdGhwtk3W2SFV4+C9xoa5u7zl9KXyK4xV7yt7hoB4=",
                     "mmd": 86400,
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-10T18:00:00Z",
-                            "version": "484"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:03Z",
+                            "version": "503"
                         }
                     },
                     "temporal_interval": {
@@ -1628,9 +1628,9 @@
                     "log_id": "N6oHzCFvLm2RnHCdJNj3MbAPKxR8YhzAkaX6GoTYFt0=",
                     "mmd": 86400,
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-10T18:00:00Z",
-                            "version": "485"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:03Z",
+                            "version": "504"
                         }
                     },
                     "temporal_interval": {
@@ -2371,9 +2371,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://mon.sycamore.ct.letsencrypt.org/2027h2/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-09-17T03:00:00Z",
-                            "version": "492"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:03Z",
+                            "version": "505"
                         }
                     },
                     "submission_url": "https://log.sycamore.ct.letsencrypt.org/2027h2/",
@@ -2447,9 +2447,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://mon.willow.ct.letsencrypt.org/2027h2/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-09-17T03:00:00Z",
-                            "version": "493"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:04Z",
+                            "version": "506"
                         }
                     },
                     "submission_url": "https://log.willow.ct.letsencrypt.org/2027h2/",
@@ -2872,9 +2872,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://gouda2027h2.mon.ct.ipng.ch/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-09-17T03:00:00Z",
-                            "version": "486"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:04Z",
+                            "version": "507"
                         }
                     },
                     "submission_url": "https://gouda2027h2.log.ct.ipng.ch/",
@@ -2910,9 +2910,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://halloumi2026h1.mon.ct.ipng.ch/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-07T18:30:00Z",
-                            "version": "488"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:04Z",
+                            "version": "508"
                         }
                     },
                     "submission_url": "https://halloumi2026h1.log.ct.ipng.ch/",
@@ -2929,9 +2929,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://halloumi2026h2a.mon.ct.ipng.ch/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-22T07:30:00Z",
-                            "version": "489"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:05Z",
+                            "version": "509"
                         }
                     },
                     "submission_url": "https://halloumi2026h2a.log.ct.ipng.ch/",
@@ -2948,9 +2948,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://halloumi2027h1.mon.ct.ipng.ch/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-07T18:30:00Z",
-                            "version": "490"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:05Z",
+                            "version": "510"
                         }
                     },
                     "submission_url": "https://halloumi2027h1.log.ct.ipng.ch/",
@@ -2967,9 +2967,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://halloumi2027h2.mon.ct.ipng.ch/",
                     "state": {
-                        "qualified": {
-                            "timestamp": "2025-10-07T18:30:00Z",
-                            "version": "491"
+                        "usable": {
+                            "timestamp": "2026-03-30T19:10:05Z",
+                            "version": "511"
                         }
                     },
                     "submission_url": "https://halloumi2027h2.log.ct.ipng.ch/",
@@ -2982,5 +2982,5 @@
             ]
         }
     ],
-    "version": "499"
+    "version": "511"
 }
