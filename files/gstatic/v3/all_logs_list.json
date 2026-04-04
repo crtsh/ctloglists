@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "85.31",
-  "log_list_timestamp": "2026-03-31T13:41:42Z",
+  "version": "85.35",
+  "log_list_timestamp": "2026-04-04T13:35:53Z",
   "operators": [
     {
       "name": "Google",
@@ -672,6 +672,32 @@
           "log_type": "monitoring_only"
         },
         {
+          "description": "Google 'CoachAndHorses2026h2' log",
+          "log_id": "Xk+hRjqD27R5prdS05bhyQxjDbDZ9sDelTzC7dZPUKM=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4yJ0Wz+EaKTI1Ae2PXKMk1VYjy9bt6YhcYM8p+gLq47ETwSgjx925dLf7jGjUEiVT/Q2bN2q8R6m2bMI09tL7Q==",
+          "submission_url": "https://coachandhorses2026h2.staging.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/coachandhorses2026h2.staging.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
+          "description": "Google 'CoachAndHorses2027h1' log",
+          "log_id": "atJoPkfo0oBkkUI/1kQCGiJuzbhhm+1acN9ps2hPqi0=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYRzG+Eugt1AOXUT9UpX1K71DCd9zOhVqjQ/DPDfqaIl/3UIrz4Gm1sFaNhcv9SqbMg7Imj+NbN6DR09mcmh8lQ==",
+          "submission_url": "https://coachandhorses2027h1.staging.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/coachandhorses2027h1.staging.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
           "description": "Google 'ParcelYard2025h2' log",
           "log_id": "NAT+bjigp++LN0smdfkvw3a0dQhGJU1BRyttJqH8TrI=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYJ9fkFeGB2QFd3G6hRZhc7AxbfunGTx5UqsR1DkEKz8xN1/WElIlYHLjB8j2+CuaMZzjEWskUA1d4GCXZ8P4tQ==",
@@ -685,6 +711,45 @@
           "log_type": "monitoring_only"
         },
         {
+          "description": "Google 'ParcelYard2026h2' log",
+          "log_id": "utuIpG+cr6QJDoLlk1bbbni0pT9YLbCBl5UkLym2jJg=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEP2H56bHx6pPm5mCku6PFpeRuA5Ux0gs8iwXIVhvVdbojs0pPwZqLtlIEoJNbjxMEePTYo/qDW85AjhMJITlavA==",
+          "submission_url": "https://parcelyard2026h2.prod.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
+          "description": "Google 'ParcelYard2027h1' log",
+          "log_id": "HIl0B+YBCgEpO7Z439ejaM6xjMpSHcyk04bkoy5bXQQ=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX7i7gYwmBxpiLXAlM/VLk4BFzspJRmZA86iReO7NVRlwGL1KWb/Dv5DRXJNBZd+9uREkNUTee5yBy2dRdRGa0w==",
+          "submission_url": "https://parcelyard2027h1.prod.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
+          "description": "Google 'ParcelYard2027h2' log",
+          "log_id": "aYS3IzyydLLRRn2l4EDXH+upCiHniGU3Srn5vPhocjc=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+CTFsoroxXi53eLT+x2T4gsMKOcqzYEhqSLjyF6uVfdgF8yBeyA2cDWsu6nmhKGhqyoohwLh3PPgXdltfPP3BA==",
+          "submission_url": "https://parcelyard2027h2.prod.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/parcelyard2027h2.prod.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
           "description": "Google 'PlumbersArms2025h2' log",
           "log_id": "R2+xhIwFH6THm9OHe+3jwHDtxTbH17IZLcZiY5BgdTM=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECPslUBfLRjA45NDTinxAQMz3VPFQ8VdeFGQCtjXQEp8qcvYOFpXnmaT3TW4PFtGnrQK+qGPr28qCnpPTwCoE9A==",
@@ -694,6 +759,45 @@
           "temporal_interval": {
             "start_inclusive": "2025-07-01T00:00:00Z",
             "end_exclusive": "2026-01-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
+          "description": "Google 'PlumbersArms2026h2' log",
+          "log_id": "IPBfqqOkkvxqwUjMM6ICNhhrSfqpfmuzkk+yXsNrHDU=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERcKG6mGyrCTtzkWBNT51LFFsM1lZ3ZPSIoXgVilDtnY0dyhwKSX7jomkXvdyqWr8DOP3HA6I6kzmREX5wpUvug==",
+          "submission_url": "https://plumbersarms2026h2.prod.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
+          "description": "Google 'PlumbersArms2027h1' log",
+          "log_id": "X/nA+6QtrHjOZELrGazggaKb1OL7U68MYzB55QWCBMk=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAKYYdjIeQwDP0RIY9mhAVntX5s2ObMc2F6u8cELSbhvavljWD/OesJZHUtqQjBXE5Ekbpiq6nchmaVnEHHpJmw==",
+          "submission_url": "https://plumbersarms2027h1.prod.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
+          "description": "Google 'PlumbersArms2027h2' log",
+          "log_id": "M3qex8rmqQSLdS8tk65+SyqQLSG0lxKdg+J5x1PJL4w=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEHCu5hooSXlk8FAiSkoWiZJ5G9GzCiJhj3eoJ9p3F3ZzV2QgcgxWWI9f75vnFgygju+baK11dsf3bXHAo/+TL/Q==",
+          "submission_url": "https://plumbersarms2027h2.prod.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/plumbersarms2027h2.prod.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
           },
           "log_type": "monitoring_only"
         }
