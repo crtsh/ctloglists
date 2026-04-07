@@ -1290,17 +1290,6 @@
           "mmd": 86400
         },
         {
-          "description": "Sectigo Elephant 2025h2",
-          "log_id": "DR28iUTp9QBVQtctPhRMzEMIKrbqHpTf1wZlfS6G8wE=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0OlLeGW2qUZGUoQERydw3GlayEO3ZK3418zThY1tDYr85ASme6ZOL/2DXyOXw8RCwVsKhRbOqMEOxW4Q2p4KQg==",
-          "url": "https://elephant2025h2.ct.sectigo.com",
-          "mmd": 86400,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          }
-        },
-        {
           "description": "Sectigo Elephant 2026h1",
           "log_id": "0W6ppWgHfmY1oD83pd28A6U8QRIU1IgY9ekxsyPLlQQ=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEU0lqnPHoXuU9Fc9dJv1HQZCvssJfvxLsirwVQ/fkFyUqeu4inwPKikeT4DGyyWWH4NR/DCJa2bAumHrXJdAcaQ==",
@@ -1345,17 +1334,6 @@
           }
         },
         {
-          "description": "Sectigo Mammoth 2025h2",
-          "log_id": "rxgaKNaMo+CpikycZ6sJ+Lu8IrquvLE4o6Gd0/m2Aw0=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEiOLHs9c3o5HXs8XaB1EEK4HtwkQ7daDmZeFKuhuxnKkqhDEprh2L8TOfEi6QsRVnZqB8C1tif2yaajCbaAIWbw==",
-          "url": "https://mammoth2025h2.ct.sectigo.com",
-          "mmd": 86400,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          }
-        },
-        {
           "description": "Sectigo Mammoth 2026h1",
           "log_id": "JS+Uwisp6W6fQRpyBytpXFtS/5epDSVAu/zcUexN7gs=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnssMilHMiuILzoXmr00x2xtqTP2weWuZl8Bd+25FUB1iqsafm2sFPaKrK12Im1Ao4p5YpaX6+eP6FSXjFBMyxA==",
@@ -1378,17 +1356,6 @@
           }
         },
         {
-          "description": "Sectigo Sabre 2025h2",
-          "log_id": "GgT/SdBUHUCv9qDDv/HYxGcvTuzuI0BomGsXQC7ciX0=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhRMRLXvzk4HkuXzZZDvntYOZZnlZR2pCXta9Yy63kUuuvFbExW4JoNdkGsjBr4mL9VjYuut7g1Lp9OClzc2SzA==",
-          "url": "https://sabre2025h2.ct.sectigo.com",
-          "mmd": 86400,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          }
-        },
-        {
           "description": "Sectigo Sabre 2026h1",
           "log_id": "VmzVo3a+g9/jQrZ1xJwjJJinabrDgsurSaOHfZqzLQE=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhCa8Nr3YjTyHnuAQr82U2de5UYA0fvdYXHPq6wmTuBB7kJx9x82WQ+1TbpUhRmdR8N62yZ6q4oBtziWBNNdqYA==",
@@ -1408,17 +1375,6 @@
           "temporal_interval": {
             "start_inclusive": "2026-07-01T00:00:00Z",
             "end_exclusive": "2027-01-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Sectigo Tiger 2025h2",
-          "log_id": "XKV30pt/i69Bntjsq/tty67DhTcC1XRvF02tPJNKqWo=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFUl5keBbWVckXMv6WSWToTeGwi9DSNCI2WZlIENBkA/zADmmS58w33/f0JhC2KEkWS+4T7/bYOXv4dDNzzrExg==",
-          "url": "https://tiger2025h2.ct.sectigo.com",
-          "mmd": 86400,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
           }
         },
         {
