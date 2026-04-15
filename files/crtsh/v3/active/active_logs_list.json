@@ -1528,14 +1528,6 @@
           }
         },
         {
-          "description": "Sectigo Tigger 2025",
-          "log_id": "48P4ZZ9FWlaBsgxwPWjmpDA1KDM1oETUupNyRzWtBas=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyc0ly2S89/mbHngFzMOdgQDUEWWtb7BWTu8foA6qwh0yXR1jhTt2WkPQhK+j0omdiKEizysoElQGCAMiYe5LPg==",
-          "url": "https://tigger2025.ctlabs.sectigo.com",
-          "mmd": 86400,
-          "log_type": "test"
-        },
-        {
           "description": "Sectigo Tigger 2026",
           "log_id": "vjHTZYjf2AXIbTUgKYSsyapEruOECAufz0LryHNV5Js=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdh/cBL5t5uz1BRtpazOxuJfUTAQEwo/MtjyzdJqeFETFdjBKJxbOcQcQAhFrp7Ef1Zv998p0V2Rj9lloFDt9YA==",
