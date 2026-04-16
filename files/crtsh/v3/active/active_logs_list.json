@@ -878,6 +878,19 @@
           "log_type": "test"
         },
         {
+          "description": "CoachAndHorses 2027h2",
+          "log_id": "7PBUNaSTKW0Kvz7J0JbyGycBLEcaHoPngTZnpglSvqY=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEc3Si5lBbzwec+dc+rf1kzMt6SmTjlzEXJe0YH7tbHCKhOiggbxL/q/Hime2H/FxjcBspBQCwAv0ocWJMA6ghyA==",
+          "submission_url": "https://coachandhorses2027h2.staging.certificate.transparency.goog",
+          "monitoring_url": "https://storage.googleapis.com/coachandhorses2027h2.staging.certificate.transparency.goog",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
           "description": "ParcelYard 2025h2",
           "log_id": "NAT+bjigp++LN0smdfkvw3a0dQhGJU1BRyttJqH8TrI=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYJ9fkFeGB2QFd3G6hRZhc7AxbfunGTx5UqsR1DkEKz8xN1/WElIlYHLjB8j2+CuaMZzjEWskUA1d4GCXZ8P4tQ==",
