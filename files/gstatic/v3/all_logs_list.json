@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "85.45",
-  "log_list_timestamp": "2026-04-14T13:47:28Z",
+  "version": "85.47",
+  "log_list_timestamp": "2026-04-16T13:36:42Z",
   "operators": [
     {
       "name": "Google",
@@ -694,6 +694,19 @@
           "temporal_interval": {
             "start_inclusive": "2027-01-01T00:00:00Z",
             "end_exclusive": "2027-07-01T00:00:00Z"
+          },
+          "log_type": "monitoring_only"
+        },
+        {
+          "description": "Google 'CoachAndHorses2027h2' log",
+          "log_id": "7PBUNaSTKW0Kvz7J0JbyGycBLEcaHoPngTZnpglSvqY=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEc3Si5lBbzwec+dc+rf1kzMt6SmTjlzEXJe0YH7tbHCKhOiggbxL/q/Hime2H/FxjcBspBQCwAv0ocWJMA6ghyA==",
+          "submission_url": "https://coachandhorses2027h2.staging.certificate.transparency.goog/",
+          "monitoring_url": "https://storage.googleapis.com/coachandhorses2027h2.staging.certificate.transparency.goog/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
           },
           "log_type": "monitoring_only"
         },
