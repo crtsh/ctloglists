@@ -19,6 +19,10 @@ Tracker for CT Log Lists and logs' Accepted Roots
 
 - Automated handling of Log List updates and Accepted Roots updates, via GitHub Actions.
 
+## Versioning
+
+The latest Log Lists and Accepted Roots are fetched hourly by a GitHub Action. Any changes are automatically committed. If one or more Log Lists have been updated, a Release is tagged using a [Scalable Calendar Versioning](https://www.reddit.com/r/golang/comments/1jzucpw/scalable_calendar_versioning_calver_semver/) format (`v1.YYYYMMDD.HHMMSS`).
+
 ## Used by
 
 - [ctlint](https://github.com/crtsh/ctlint): CT compliance linter.
