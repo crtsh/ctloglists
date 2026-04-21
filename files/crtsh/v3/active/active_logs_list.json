@@ -1065,19 +1065,6 @@
           }
         },
         {
-          "description": "Lipase 2025h2",
-          "log_id": "+aEI1Vq8bDZUG/1vReL3fh66SuI7WN/b7i2cu11WxTo=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7EQwVVApz4BNqjMSRcZ1XQ734331CwWkdkELyNxCybvxqt3A5DVZpfKQKknJR3aH9bsIZKUncy9Bnh8vX5s17A==",
-          "submission_url": "https://lipase2025h2.log.ct.ipng.ch",
-          "monitoring_url": "https://lipase2025h2.mon.ct.ipng.ch",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          },
-          "log_type": "test"
-        },
-        {
           "description": "Lipase 2026h1",
           "log_id": "b8whyKsJkXnvusRMwpnQ7EENf77I4306CVV2zZ9jxgg=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErPjPlZYd4uo5aH/eIfHevbWqGHIiQIb7CXg0OszD+a0jbGERdUrnBP8afGBq6ey4/vDgI9aqqGiCmT9YGb1x4A==",
@@ -1126,19 +1113,6 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
-          },
-          "log_type": "test"
-        },
-        {
-          "description": "Rennet 2025h2",
-          "log_id": "IPng43glrS2aHdKilIAgicJdQ80udPGVttwMe+uE2ZM=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEH+TSNzQhLhxX89oGRHuXLG00ObwEnKlMZ+HHHDIFKvw2eTrKePHwWDh/yDo8A/vA0bfVheIkQtgfwoQbaLl6Ow==",
-          "submission_url": "https://rennet2025h2.log.ct.ipng.ch",
-          "monitoring_url": "https://rennet2025h2.mon.ct.ipng.ch",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
           },
           "log_type": "test"
         },
