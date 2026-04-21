@@ -1,0 +1,65 @@
+name: Release on Log List update
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  schedule:
+    # Run Hourly
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check_release:
+    runs-on: ubuntu-latest
+    name: Hourly check for updates to Log Lists
+
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+
+    steps:
+    - name: Checkout this repo
+      uses: actions/checkout@v6
+
+    - name: Setup git
+      run: |
+          git config --global user.email "gh@crt.sh"
+          git config --global user.name "ctloglists"
+
+    - name: Fetch all branches
+      run: git fetch origin
+
+    - name: Run fetch_ct_log_lists.sh
+      run: chmod +x fetch_ct_log_lists.sh; ./fetch_ct_log_lists.sh
+
+    - name: Check for changes to log lists
+      run: |
+        git fetch origin main
+        if [[ $(git diff -U0 "*.json" | grep -E "^[-+]\s" | grep -v "\"version\"" | grep -v "\"log_list_timestamp\"") ]]; then
+          echo "Commit/Release needed: One or more log lists have been updated substantively."
+          echo "commitandrelease_needed=true" >> $GITHUB_ENV
+          echo "commit_message=One or more log lists have been updated substantively" >> $GITHUB_ENV
+        else
+          echo "No log lists have been updated substantively."
+          echo "commitandrelease_needed=false" >> $GITHUB_ENV
+        fi
+
+    - name: Commit changes
+      if: env.commitandrelease_needed == 'true'
+      uses: stefanzweifel/git-auto-commit-action@v7
+      with:
+        commit_message: ${{ env.commit_message }}
+
+    - name: Set tag name
+      id: tag
+      run: |
+        tag=$(date +v1.%Y%m%d.%-H%M%S)
+        echo "tag=$tag" >> $GITHUB_OUTPUT
+
+    - name: Create and publish release
+      if: env.commitandrelease_needed == 'true'
+      env:
+        GH_TOKEN: ${{ github.token }}
+        GH_REPO: ${{ github.repository }}
+      run: gh release create "${{ steps.tag.outputs.tag }}" --draft=false

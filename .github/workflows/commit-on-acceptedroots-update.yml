@@ -1,4 +1,4 @@
-name: PR on Accepted Roots update
+name: Commit on Accepted Roots update
 
 permissions:
   contents: write
@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Hourly check for updates to logs' Accepted Roots
 
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+
     steps:
     - name: Checkout this repo
       uses: actions/checkout@v6
@@ -30,25 +33,20 @@ jobs:
     - name: Run check_for_acceptedroots_changes.sh
       run: chmod +x cmd/acceptedroots/check_for_acceptedroots_changes.sh; cmd/acceptedroots/check_for_acceptedroots_changes.sh
 
-    - name: Check for changes
-      id: check_changes
+    - name: Check for changes to logs' Accepted Roots
       run: |
         git fetch origin main
         if [[ $(git diff --staged -U0 "files/acceptedroots/*") ]]; then
-          echo "At least one log's Accepted Roots have been updated"
-          echo "updated=true" >> $GITHUB_OUTPUT
+          echo "Commit needed: At least one log's Accepted Roots have been updated."
+          echo "commit_needed=true" >> $GITHUB_ENV
+          echo "commit_message=At least one log's Accepted Roots have been updated" >> $GITHUB_ENV
         else
-          echo "No logs' Accepted Roots have been updated"
-          echo "updated=false" >> $GITHUB_OUTPUT
+          echo "No logs' Accepted Roots have been updated."
+          echo "commit_needed=false" >> $GITHUB_ENV
         fi
 
-    - name: Create Pull Request
-      if: steps.check_changes.outputs.updated == 'true'
-      uses: peter-evans/create-pull-request@v8
+    - name: Commit changes
+      if: env.commit_needed == 'true'
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        base: main
-        branch: auto-accepted-roots-update
-        title: "Accepted Roots update"
-        body: "This pull request was automatically created due to an Accepted Roots update."
-        commit-message: Accepted Roots update
+        commit_message: ${{ env.commit_message }}
