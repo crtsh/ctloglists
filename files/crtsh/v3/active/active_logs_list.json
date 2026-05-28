@@ -1175,18 +1175,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "Sycamore 2025h2d",
-          "log_id": "W/beU/H7+sSaGFl0aUWhpqconV5wpg9IRQ5Ya7mucrg=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERI8grd3rsuE95/3Rk/Jn9rGBrpcvDqD6Y5Ooz1E+xABGl3w6JLdFHfzSFZvEFX/Goar6nbzQHtV75ud4R0Iafg==",
-          "submission_url": "https://log.sycamore.ct.letsencrypt.org/2025h2d",
-          "monitoring_url": "https://mon.sycamore.ct.letsencrypt.org/2025h2d",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-06-19T00:00:00Z",
-            "end_exclusive": "2025-12-18T00:00:00Z"
-          }
-        },
-        {
           "description": "Sycamore 2026h1",
           "log_id": "pcl4kl1XRheChw3YiWYLXFVki30AQPLsB2hR0YhpGfc=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfEEe0JZknA91/c6eNl1aexgeKzuGQUMvRCXPXg9L227O5I4Pi++Abcpq6qxlVUKPYafAJelAnMfGzv3lHCc8gA==",
@@ -1232,18 +1220,6 @@
           "temporal_interval": {
             "start_inclusive": "2027-06-18T00:00:00Z",
             "end_exclusive": "2027-12-16T00:00:00Z"
-          }
-        },
-        {
-          "description": "Willow 2025h2d",
-          "log_id": "5NAXdhyRORG+9HOWrNjSRljCT7WTtRvqxVknYuiFPBU=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAElX78WOZsrDp7/LDFvsGytclanWhJ2oEwdgytKo21ZrCzbJ6raFAmZ1bMFh4B/0+e1aWtfhG2wgCM2ex/aDgZuA==",
-          "submission_url": "https://log.willow.ct.letsencrypt.org/2025h2d",
-          "monitoring_url": "https://mon.willow.ct.letsencrypt.org/2025h2d",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-06-18T00:00:00Z",
-            "end_exclusive": "2025-12-17T00:00:00Z"
           }
         },
         {
