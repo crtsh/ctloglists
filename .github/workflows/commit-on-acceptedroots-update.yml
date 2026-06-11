@@ -15,9 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Hourly check for updates to logs' Accepted Roots
 
-    outputs:
-      tag: ${{ steps.tag.outputs.tag }}
-
     steps:
     - name: Checkout this repo
       uses: actions/checkout@v6
@@ -34,19 +31,20 @@ jobs:
       run: chmod +x cmd/acceptedroots/check_for_acceptedroots_changes.sh; cmd/acceptedroots/check_for_acceptedroots_changes.sh
 
     - name: Check for changes to logs' Accepted Roots
+      id: check
       run: |
         git fetch origin main
         if [[ $(git diff --staged -U0 "files/acceptedroots/*") ]]; then
           echo "Commit needed: At least one log's Accepted Roots have been updated."
-          echo "commit_needed=true" >> $GITHUB_ENV
-          echo "commit_message=At least one log's Accepted Roots have been updated" >> $GITHUB_ENV
+          echo "commit_needed=true" >> $GITHUB_OUTPUT
+          echo "commit_message=At least one log's Accepted Roots have been updated" >> $GITHUB_OUTPUT
         else
           echo "No logs' Accepted Roots have been updated."
-          echo "commit_needed=false" >> $GITHUB_ENV
+          echo "commit_needed=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Commit changes
-      if: env.commit_needed == 'true'
+      if: steps.check.outputs.commit_needed == 'true'
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
-        commit_message: ${{ env.commit_message }}
+        commit_message: ${{ steps.check.outputs.commit_message }}
