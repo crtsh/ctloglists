@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/google/certificate-transparency-go v1.3.3
-	software.sslmate.com/src/certspotter v0.24.1
+	software.sslmate.com/src/certspotter v0.24.2
 )
 
 require (
