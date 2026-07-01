@@ -6,6 +6,7 @@ import (
 	"encoding/hex"
 	"fmt"
 	"strings"
+	"time"
 
 	ctgo "github.com/google/certificate-transparency-go"
 	"github.com/google/certificate-transparency-go/loglist3"
@@ -163,4 +164,18 @@ func addSignatureVerifiersForLogList(logList *loglist3.LogList) error {
 	}
 
 	return nil
+}
+
+// OldestTimestampForLogListWithEnforcementCutOff returns the oldest LogListTimestamp among the supported log lists that are known to have a corresponding 70-day enforcement cut-off.
+func OldestTimestampForLogListWithEnforcementCutOff() time.Time {
+	var oldest time.Time
+	for _, ll := range []*loglist3.LogList{GstaticV3All, AppleCurrent, MozillaV3Known} {
+		if ll == nil || ll.LogListTimestamp.IsZero() {
+			continue
+		}
+		if oldest.IsZero() || ll.LogListTimestamp.Before(oldest) {
+			oldest = ll.LogListTimestamp
+		}
+	}
+	return oldest
 }
