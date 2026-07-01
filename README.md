@@ -23,6 +23,33 @@ Tracker for CT Log Lists and logs' Accepted Roots
 
 The latest Log Lists and Accepted Roots are fetched hourly by a GitHub Action. Any changes are automatically committed. If one or more Log Lists have been updated, a Release is tagged using a [Scalable Calendar Versioning](https://www.reddit.com/r/golang/comments/1jzucpw/scalable_calendar_versioning_calver_semver/) format (`v1.YYYYMMDD.HHMMSS`).
 
+## API
+
+### `LoadLogLists() error`
+Loads and parses all bundled CT Log Lists.
+
+### `LoadAcceptedRoots() error`
+Loads and parses all bundled Accepted Roots data.
+
+### `OldestTimestampForLogListWithEnforcementCutOff() time.Time`
+Returns the oldest `LogListTimestamp` among the supported log lists that are known to have a corresponding 70-day enforcement cut-off (Chrome, Apple, Mozilla). Log lists with an omitted or zero timestamp are ignored.
+
+### Exported Variables
+
+| Variable | Description |
+|----------|-------------|
+| `GstaticV3All` | Chrome's all_logs_list.json |
+| `AppleCurrent` | Apple's current_log_list.json |
+| `CrtshV3All` | crt.sh all logs |
+| `CrtshV3Active` | crt.sh active logs |
+| `MozillaV3Known` | Mozilla's known_logs_list.json |
+| `BimiV3Approved` | BIMI approved_logs_list.json |
+| `LogMimics` | Chrome log mimics |
+| `LogSignatureVerifierMap` | Map of log ID → signature verifier |
+| `TemporalIntervalMap` | Map of log ID → temporal interval |
+| `AcceptedRootsMap` | Map of roots list hash → PEM cert pool |
+| `LogAcceptedRootsMap` | Map of log ID → accepted roots list hash |
+
 ## Used by
 
 - [ctlint](https://github.com/crtsh/ctlint): CT compliance linter.
