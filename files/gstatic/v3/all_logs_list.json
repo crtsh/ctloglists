@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "88.0",
-  "log_list_timestamp": "2026-07-09T13:37:54Z",
+  "version": "88.2",
+  "log_list_timestamp": "2026-07-11T13:40:12Z",
   "operators": [
     {
       "name": "Google",
@@ -381,93 +381,7 @@
           }
         }
       ],
-      "tiled_logs": [
-        {
-          "description": "Cloudflare 'Raio2025h2b'",
-          "log_id": "Tw05u8NV28wWJ5ZuVAUVfMr3Lj90j0f+ewSeWlkVXL0=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESwiXfU4VWajxfFHaQDvR5OsrBY5lp+JW6AONks1wbPABXhaX0yi5+5zGw0oX1RbA6tB4RiP8V/I9i/ncLniJkQ==",
-          "submission_url": "https://ct.cloudflare.com/logs/raio2025h2b/",
-          "monitoring_url": "https://raio2025h2b.ct.cloudflare.com/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-01-08T00:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Cloudflare 'Raio2026h1a'",
-          "log_id": "5bvNwMctaSvZWYo2AgQ86FTsb2D4AGZ4WWOIK3w4JDg=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEewKoi9UXxR2+or27gZXyqqjfC/K0d7YMSBuReaNIBVre8Fkf2IbIXu1JnPIdv2HW3WyOIV3BRAIFgstayoSLFQ==",
-          "submission_url": "https://ct.cloudflare.com/logs/raio2026h1a/",
-          "monitoring_url": "https://raio2026h1a.ct.cloudflare.com/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-02-26T22:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2026-01-01T00:00:00Z",
-            "end_exclusive": "2026-07-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Cloudflare 'Raio2026h2a'",
-          "log_id": "uuKpKTLFwF0fpU00gTDwm/yIMxZKFaH7vvUmKDJWyAs=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESrSp8+SLuFV5XKzPo6YS5C5qymHjSVFfioV0V8/5Ilhd+AfKuN2m/6d8EAc2VRDD1wGPNFtoYWNotvsqXynfnQ==",
-          "submission_url": "https://ct.cloudflare.com/logs/raio2026h2a/",
-          "monitoring_url": "https://raio2026h2a.ct.cloudflare.com/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-02-26T22:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2026-07-01T00:00:00Z",
-            "end_exclusive": "2027-01-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Cloudflare 'Raio2027h1a'",
-          "log_id": "ijgQv0CPWs97dN4gwHGQO3F5yrDb12jv+hD2KY6gaAw=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUJRLaVR5ytKhoHiquDYDwthBdbgMmoa8vFG0vUw493g652rDV39r8v8NGKjsQ48OtiBiOSJCea0SX5YotzjpDA==",
-          "submission_url": "https://ct.cloudflare.com/logs/raio2027h1a/",
-          "monitoring_url": "https://raio2027h1a.ct.cloudflare.com/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-02-26T22:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2027-01-01T00:00:00Z",
-            "end_exclusive": "2027-07-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Cloudflare 'Raio2027h2a'",
-          "log_id": "Ia1IGvXLVPNLOr+uoP8Gmns8dm/DtpCHC7RrFS+2C/k=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEi26evoGHBxrQAASnY/nsnI0ryBZVFJoffV/rpEtmMS1FPEPR+Yjr0fP4YMMHbvnZO/EKU4FYGAXmOihuSV18Uw==",
-          "submission_url": "https://ct.cloudflare.com/logs/raio2027h2a/",
-          "monitoring_url": "https://raio2027h2a.ct.cloudflare.com/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-02-26T22:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2027-07-01T00:00:00Z",
-            "end_exclusive": "2028-01-01T00:00:00Z"
-          }
-        }
-      ]
+      "tiled_logs": []
     },
     {
       "name": "DigiCert",
@@ -1145,23 +1059,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "Geomys 'Tuscolo2025h2'",
-          "log_id": "750EQi4gtDIQJ1TfUtJRRgJ/hEwH/YZeySLub86fe7w=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEK9d4GGtzbkwwsYpEtvnU9KKgZr67MsGlB7mnF8DW9bHnngHzPzXPbdo7n+FyCwSDYqEHbal1Z0CCVyZD6wQ/ow==",
-          "submission_url": "https://tuscolo2025h2.sunlight.geomys.org/",
-          "monitoring_url": "https://tuscolo2025h2.skylight.geomys.org/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-01-08T00:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          }
-        },
-        {
           "description": "Geomys 'Tuscolo2026h1'",
           "log_id": "cX6V88I4im2x44RJPTHhWqliCHYtQgDgBQzQZ7WmYeI=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEflxzMg2Ajjg7h1+ZIvQ9LV6yFvdj6uRi9YbvtRnSCgS2SamkH56WcPRaBTRYARPDIr5JwLqgJAVA/NvDxdJXOw==",
@@ -1228,19 +1125,6 @@
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
           }
-        },
-        {
-          "description": "Geomys Navigli2025h2",
-          "log_id": "5Pt3SiEkxYZAsYMvUKv63ISjiu1xke62aSI3ksv2KJE=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4i7AmqGoGHsorn/eyclTMjrAnM0JUUbyGJUxXqq1AjQ4qBC77wXkWt7s/HA8An2vrEBKIGQzqTjV8QIHrmpd4w==",
-          "submission_url": "https://navigli2025h2.sunlight.geomys.org/",
-          "monitoring_url": "https://navigli2025h2.skylight.geomys.org/",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          },
-          "log_type": "test"
         },
         {
           "description": "Geomys Navigli2026h1",
@@ -1425,23 +1309,6 @@
           "log_type": "monitoring_only"
         },
         {
-          "description": "IPng Networks 'Halloumi2025h2'",
-          "log_id": "+3xjpo0eBq3Qg4ibuNQyHLJFROv2/mlyKRkuOD5ebiM=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqJxSnCcMhWikCFeWo1RiplGaVEZL5Vn4KEJYZM97Ro5XuTg4h6+n807utfPS7qqpLv5me/ddlpKFGoFfkMBrAQ==",
-          "submission_url": "https://halloumi2025h2.log.ct.ipng.ch/",
-          "monitoring_url": "https://halloumi2025h2.mon.ct.ipng.ch/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-01-08T00:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
-          }
-        },
-        {
           "description": "IPng Networks 'Halloumi2026h1'",
           "log_id": "fz035/iSPY5xZb6w0+q+5yoivkbAy4TEFtTkuYJky8I=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzdcnGwRjm2ZoA68JFZKfoM4cOPPG2fr0iR72p3XanznOlw57HJ9RlYRNt75gIMIKgB1r0dxY5Jojq1m8uobYjg==",
@@ -1456,23 +1323,6 @@
           "temporal_interval": {
             "start_inclusive": "2026-01-01T00:00:00Z",
             "end_exclusive": "2026-07-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "IPng Networks 'Halloumi2026h2'",
-          "log_id": "YKWe2Ffs01lJBV7vitDrq2CYZIALz1+41gv1v/87FMU=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENDhVrTtcQebbk/R6YW8Gt1RW+WZ8qscHUsI2/TW5f7bu+mEst2lskXbR9HEBQvyhkYKVTuigQjgZvDYqRhcn0Q==",
-          "submission_url": "https://halloumi2026h2.log.ct.ipng.ch/",
-          "monitoring_url": "https://halloumi2026h2.mon.ct.ipng.ch/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2025-09-09T00:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2026-07-01T00:00:00Z",
-            "end_exclusive": "2027-01-01T00:00:00Z"
           }
         },
         {
@@ -1524,23 +1374,6 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "IPng Networks 'Gouda2025h2'",
-          "log_id": "GoudanQ8ze1gH3O9MJcIHbyuxKYTnJKwtUDDE3sg7AU=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEpHiP24MNo8pgt5RNoawsvGIwSaVEKNqdzYCUXtMu0MM15t63d26eDUDz+nkQjACuRo4LRJcyia7I0anEdNH9wA==",
-          "submission_url": "https://gouda2025h2.log.ct.ipng.ch/",
-          "monitoring_url": "https://gouda2025h2.mon.ct.ipng.ch/",
-          "mmd": 60,
-          "state": {
-            "rejected": {
-              "timestamp": "2026-01-08T00:00:00Z"
-            }
-          },
-          "temporal_interval": {
-            "start_inclusive": "2025-07-01T00:00:00Z",
-            "end_exclusive": "2026-01-01T00:00:00Z"
           }
         },
         {
