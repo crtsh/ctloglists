@@ -1,44 +1,14 @@
 {
-  "log_list_timestamp": "2026-06-10T15:35:13Z",
+  "log_list_timestamp": "2026-07-14T20:06:52Z",
   "operators": [
     {
       "name": "Google",
       "email": [],
       "logs": [
         {
-          "description": "Google 'Argon2026h1' log",
-          "log_id": "DleUvPOuqT4zGyyZB7P3kN+bwj1xMiXdIaklrGHFTiE=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEB/we6GOO/xwxivy4HhkrYFAAPo6e2nc346Wo2o2U+GvoPWSPJz91s/xrEvA3Bk9kWHUUXVZS5morFEzsgdHqPg==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
           "description": "Google 'Argon2026h2' log",
           "log_id": "1219ENGn9XfCx+lf1wC/+YLJM1pl4dCzAXMXwMjFaXc=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKjpni/66DIYrSlGK6Rf+e6F2c/28ZUvDJ79N81+gyimAESAyeNZ++TRgjHWg9TVQnKHTSU0T1TtqDupFnSQTIg==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
-          "description": "Google 'Xenon2026h1' log",
-          "log_id": "lpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcY=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOh/Iu87VkEc0ysoBBCchHOIpPZK7kUXHWj6l1PIS5ujmQ7rze8I4r/wjigVW6wMKMMxjbNk8vvV7lLqU07+ITA==",
           "url": "",
           "mmd": 0,
           "state": {
@@ -96,7 +66,104 @@
           }
         }
       ],
-      "tiled_logs": []
+      "tiled_logs": [
+        {
+          "description": "Google 'ParcelYard2026h2' log",
+          "log_id": "utuIpG+cr6QJDoLlk1bbbni0pT9YLbCBl5UkLym2jJg=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEP2H56bHx6pPm5mCku6PFpeRuA5Ux0gs8iwXIVhvVdbojs0pPwZqLtlIEoJNbjxMEePTYo/qDW85AjhMJITlavA==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-07-14T20:06:52Z"
+            },
+            "usable": {
+              "timestamp": "2026-08-19T15:35:13Z"
+            }
+          }
+        },
+        {
+          "description": "Google 'ParcelYard2027h1' log",
+          "log_id": "HIl0B+YBCgEpO7Z439ejaM6xjMpSHcyk04bkoy5bXQQ=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX7i7gYwmBxpiLXAlM/VLk4BFzspJRmZA86iReO7NVRlwGL1KWb/Dv5DRXJNBZd+9uREkNUTee5yBy2dRdRGa0w==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-07-14T20:06:52Z"
+            },
+            "usable": {
+              "timestamp": "2026-08-19T15:35:13Z"
+            }
+          }
+        },
+        {
+          "description": "Google 'ParcelYard2027h2' log",
+          "log_id": "aYS3IzyydLLRRn2l4EDXH+upCiHniGU3Srn5vPhocjc=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+CTFsoroxXi53eLT+x2T4gsMKOcqzYEhqSLjyF6uVfdgF8yBeyA2cDWsu6nmhKGhqyoohwLh3PPgXdltfPP3BA==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-07-14T20:06:52Z"
+            },
+            "usable": {
+              "timestamp": "2026-08-19T15:35:13Z"
+            }
+          }
+        },
+        {
+          "description": "Google 'PlumbersArms2026h2' log",
+          "log_id": "IPBfqqOkkvxqwUjMM6ICNhhrSfqpfmuzkk+yXsNrHDU=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERcKG6mGyrCTtzkWBNT51LFFsM1lZ3ZPSIoXgVilDtnY0dyhwKSX7jomkXvdyqWr8DOP3HA6I6kzmREX5wpUvug==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-07-14T20:06:52Z"
+            },
+            "usable": {
+              "timestamp": "2026-08-19T15:35:13Z"
+            }
+          }
+        },
+        {
+          "description": "Google 'PlumbersArms2027h1' log",
+          "log_id": "X/nA+6QtrHjOZELrGazggaKb1OL7U68MYzB55QWCBMk=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAKYYdjIeQwDP0RIY9mhAVntX5s2ObMc2F6u8cELSbhvavljWD/OesJZHUtqQjBXE5Ekbpiq6nchmaVnEHHpJmw==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-07-14T20:06:52Z"
+            },
+            "usable": {
+              "timestamp": "2026-08-19T15:35:13Z"
+            }
+          }
+        },
+        {
+          "description": "Google 'PlumbersArms2027h2' log",
+          "log_id": "M3qex8rmqQSLdS8tk65+SyqQLSG0lxKdg+J5x1PJL4w=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEHCu5hooSXlk8FAiSkoWiZJ5G9GzCiJhj3eoJ9p3F3ZzV2QgcgxWWI9f75vnFgygju+baK11dsf3bXHAo/+TL/Q==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-07-14T20:06:52Z"
+            },
+            "usable": {
+              "timestamp": "2026-08-19T15:35:13Z"
+            }
+          }
+        }
+      ]
     },
     {
       "name": "Cloudflare",
@@ -140,39 +207,9 @@
       "email": [],
       "logs": [
         {
-          "description": "DigiCert 'Wyvern2026h1'",
-          "log_id": "ZBHEbKQS7KeJHKICLgC8q08oB9QeNSer6v7VA8l9zfA=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7Lw0OeKajbeZepHxBXJS2pOJXToHi5ntgKUW2nMhIOuGlofFxtkXum65TBNY1dGD+HrfHge8Fc3ASs0qMXEHVQ==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
           "description": "DigiCert 'Wyvern2026h2'",
           "log_id": "wjF+V0UZo0XufzjespBB68fCIVoiv3/Vta12mtkOUs0=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEenPbSvLeT+zhFBu+pqk8IbhFEs16iCaRIFb1STLDdWzL6XwTdTWcbOzxMTzB3puME5K3rT0PoZyPSM50JxgjmQ==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
-          "description": "DigiCert 'Sphinx2026h1'",
-          "log_id": "SZybad4dfOz8Nt7Nh2SmuFuvCoeAGdFVUvvp6ynd+MM=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEq4S++DyHokIlmmacritS51r5IRsZA6UH4kYLH4pefGyu/xl3huh7/O5rNk/yvMOeBQKaCAG1SSM1xNNQK1Hp9A==",
           "url": "",
           "mmd": 0,
           "state": {
@@ -267,21 +304,6 @@
       "email": [],
       "logs": [
         {
-          "description": "Sectigo 'Mammoth2026h1'",
-          "log_id": "JS+Uwisp6W6fQRpyBytpXFtS/5epDSVAu/zcUexN7gs=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnssMilHMiuILzoXmr00x2xtqTP2weWuZl8Bd+25FUB1iqsafm2sFPaKrK12Im1Ao4p5YpaX6+eP6FSXjFBMyxA==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
           "description": "Sectigo 'Mammoth2026h2'",
           "log_id": "lLHBirDQV8R74KwEDh8svI3DdXJ7yVHyClJhJoY7pzw=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7INh8te0u+TkO+vIY3WYz2GQYxQ9XyLfdLpQp1ibaX3mY4lt2ddRhD/4AtjI/8KXceV+J/VysY8kJ1cKDXTAtg==",
@@ -297,39 +319,9 @@
           }
         },
         {
-          "description": "Sectigo 'Sabre2026h1'",
-          "log_id": "VmzVo3a+g9/jQrZ1xJwjJJinabrDgsurSaOHfZqzLQE=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhCa8Nr3YjTyHnuAQr82U2de5UYA0fvdYXHPq6wmTuBB7kJx9x82WQ+1TbpUhRmdR8N62yZ6q4oBtziWBNNdqYA==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
           "description": "Sectigo 'Sabre2026h2'",
           "log_id": "H1bRq5RwSkHdP+r99GmTVTAsFDG/5hNGCJ//rnldzC8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzjXK7DkHgtp3J4bk8n7F3Djym6mrjKfA7YMePmobwPCVVroyM0x1fAkH6eE+ZTVj8Em+ctGqna99CMS0jVk9cw==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
-          "description": "Sectigo 'Elephant2026h1'",
-          "log_id": "0W6ppWgHfmY1oD83pd28A6U8QRIU1IgY9ekxsyPLlQQ=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEU0lqnPHoXuU9Fc9dJv1HQZCvssJfvxLsirwVQ/fkFyUqeu4inwPKikeT4DGyyWWH4NR/DCJa2bAumHrXJdAcaQ==",
           "url": "",
           "mmd": 0,
           "state": {
@@ -375,21 +367,6 @@
           "description": "Sectigo 'Elephant2027h2'",
           "log_id": "okkM3NuOM6QAMhdg1tTVGiA2GR6nfZaL4mqKAPb///c=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECTPhpJnRFroRRpP/1DdAns+PrnmUywtqIV+EeL4Jg8zKouoW7kuAkYo+kZeoHtyK7CBhflIlMk7T2Qrn4w/t8g==",
-          "url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
-          "description": "Sectigo 'Tiger2026h1'",
-          "log_id": "FoMtq/CpJQ8P8DqlRf/Iv8gj0IdL9gQpJ/jnHzMT9fo=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE73eDJyszDbzsWcgI0nbtU0+y11gQWjNjS/RSO5P4hOSFE+pPrDCtfNPHe6dq7/XQYwOFt9Feb8TwQW+mqXN5xg==",
           "url": "",
           "mmd": 0,
           "state": {
@@ -480,22 +457,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "Let's Encrypt 'Sycamore2026h1'",
-          "log_id": "pcl4kl1XRheChw3YiWYLXFVki30AQPLsB2hR0YhpGfc=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfEEe0JZknA91/c6eNl1aexgeKzuGQUMvRCXPXg9L227O5I4Pi++Abcpq6qxlVUKPYafAJelAnMfGzv3lHCc8gA==",
-          "submission_url": "",
-          "monitoring_url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-10-06T11:55:13+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-11-17T11:39:16Z"
-            }
-          }
-        },
-        {
           "description": "Let's Encrypt 'Sycamore2026h2'",
           "log_id": "bP5QGUOoXqkWvFLRM+TcyR7xQRx9JYQg0XOAnhgY6zo=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwR1FtiiMbpvxR+sIeiZ5JSCIDIdTAPh7OrpdchcrCcyNVDvNUq358pqJx2qdyrOI+EjGxZ7UiPcN3bL3Q99FqA==",
@@ -531,22 +492,6 @@
           "description": "Let's Encrypt 'Sycamore2027h2'",
           "log_id": "5eNiR9ku9K2jhYO1NZHbcp/C8ArktnRRdNPd/GqiU4g=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEK+2zy2UWRMIyC2jU46+rj8UsyMjLsQIr1Y/6ClbdpWGthUb8y3Maf4zfAZTWW+AH9wAWPLRL5vmtz7Zkh2f2nA==",
-          "submission_url": "",
-          "monitoring_url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-10-06T11:55:13+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-11-17T11:39:16Z"
-            }
-          }
-        },
-        {
-          "description": "Let's Encrypt 'Willow2026h1'",
-          "log_id": "4yON8o2iiOCq4Kzw+pDJhfC2v/XSpSewAfwcRFjEtug=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtpFyulwgy1+u+wYQ37lbV+HsPFNYoi4sy6dZP662N/Z/usdNi4+Q3RLES1RY2PNk7zL/7VPSn3JERMPu/s4e4A==",
           "submission_url": "",
           "monitoring_url": "",
           "mmd": 0,
@@ -697,22 +642,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "Geomys 'Tuscolo2026h1'",
-          "log_id": "cX6V88I4im2x44RJPTHhWqliCHYtQgDgBQzQZ7WmYeI=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEflxzMg2Ajjg7h1+ZIvQ9LV6yFvdj6uRi9YbvtRnSCgS2SamkH56WcPRaBTRYARPDIr5JwLqgJAVA/NvDxdJXOw==",
-          "submission_url": "",
-          "monitoring_url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-08-11T12:33:27+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-09-22T12:29:18+01:00"
-            }
-          }
-        },
-        {
           "description": "Geomys 'Tuscolo2026h2'",
           "log_id": "Rq+GPTs+5Z+ld96oJF02sNntIqIj9GF3QSKUUu6VUF8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaA6P0i7JTsd9XfzF1/76avRWA3XXI4NStsFO/aFtBp6SY7olDEMiPSFSxGzFQjKA1r9vgG/oFQwurlWMy9FQNw==",
@@ -781,22 +710,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "IPng Networks 'Gouda2026h1'",
-          "log_id": "GoudaUpXmMiZoMqIvfSPwLRWYMzDYA0fcfRp/8fRrKM=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAER6wvqVwhf5isuCtwSfNjTOrqwZg0vZuIMP7xk8fPmJfaFZCte1ptQiqNhRMCtqIgJvDcJyjkGVI8i44vxL877A==",
-          "submission_url": "",
-          "monitoring_url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-10-06T11:55:13+01:00"
-            },
-            "usable": {
-              "timestamp": "2025-11-17T11:39:16Z"
-            }
-          }
-        },
-        {
           "description": "IPng Networks 'Gouda2026h2'",
           "log_id": "Goudaw/+v4G0eTnG0jEKhtbRAtTwRuIYLJ3jX14mJe8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjayczmhUMNftWy6VjvYXcTUEpvL8LIAKcYcxrxx5xxQGZEVvhnZeCnXVlsMWhq1h9J55eZfQWM/dqIr6GmoN9Q==",
@@ -841,22 +754,6 @@
             },
             "usable": {
               "timestamp": "2025-11-17T11:39:16Z"
-            }
-          }
-        },
-        {
-          "description": "IPng Networks 'Halloumi2026h1'",
-          "log_id": "fz035/iSPY5xZb6w0+q+5yoivkbAy4TEFtTkuYJky8I=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzdcnGwRjm2ZoA68JFZKfoM4cOPPG2fr0iR72p3XanznOlw57HJ9RlYRNt75gIMIKgB1r0dxY5Jojq1m8uobYjg==",
-          "submission_url": "",
-          "monitoring_url": "",
-          "mmd": 0,
-          "state": {
-            "qualified": {
-              "timestamp": "2025-10-30T11:02:29Z"
-            },
-            "usable": {
-              "timestamp": "2025-12-15T10:55:13Z"
             }
           }
         },
