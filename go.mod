@@ -8,7 +8,7 @@ require (
 )
 
 require (
-	github.com/go-logr/logr v1.4.3 // indirect
-	golang.org/x/crypto v0.53.0 // indirect
+	github.com/go-logr/logr v1.4.4 // indirect
+	golang.org/x/crypto v0.54.0 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
 )
