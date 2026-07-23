@@ -250,19 +250,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "Navigli 2026h1",
-          "log_id": "gs3NR5535F0UrWkDiCxBE/yBwhITvsKz2U6dx82Azf4=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEh/xU5f2JBQfU/9jb1aUb06VChY/y+g9VCqiJ+rElEu81HMIj/1jvLzaXl/wYJFSVhtJhl4xeIMBOcltC/t7YTg==",
-          "submission_url": "https://navigli2026h1.sunlight.geomys.org",
-          "monitoring_url": "https://navigli2026h1.skylight.geomys.org",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2026-01-01T00:00:00Z",
-            "end_exclusive": "2026-07-01T00:00:00Z"
-          },
-          "log_type": "test"
-        },
-        {
           "description": "Navigli 2026h2",
           "log_id": "JKaah8LdWC3VArJRfww4J/MLTqhKJBO1U+b78YzxX+8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE35uLGxEy/DbYDRg6/078qvcc2D0GyS8Iu8xG1CU8Ab133mXVcYtUJL5XlKP8768znap35cwzLbQUgYsmBIOs3Q==",
@@ -302,18 +289,6 @@
           "log_type": "test"
         },
         {
-          "description": "Tuscolo 2026h1",
-          "log_id": "cX6V88I4im2x44RJPTHhWqliCHYtQgDgBQzQZ7WmYeI=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEflxzMg2Ajjg7h1+ZIvQ9LV6yFvdj6uRi9YbvtRnSCgS2SamkH56WcPRaBTRYARPDIr5JwLqgJAVA/NvDxdJXOw==",
-          "submission_url": "https://tuscolo2026h1.sunlight.geomys.org",
-          "monitoring_url": "https://tuscolo2026h1.skylight.geomys.org",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2026-01-01T00:00:00Z",
-            "end_exclusive": "2026-07-01T00:00:00Z"
-          }
-        },
-        {
           "description": "Tuscolo 2026h2",
           "log_id": "Rq+GPTs+5Z+ld96oJF02sNntIqIj9GF3QSKUUu6VUF8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaA6P0i7JTsd9XfzF1/76avRWA3XXI4NStsFO/aFtBp6SY7olDEMiPSFSxGzFQjKA1r9vgG/oFQwurlWMy9FQNw==",
@@ -343,6 +318,157 @@
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIAz2gOD7wIptaiLTnmR4k7AQwp5kFmqmGHY/8JmMJxaSHyAipoFA/YSBCTX7ZowxIkSKpZYGlqLtdLVcLWDS5w==",
           "submission_url": "https://tuscolo2027h2.sunlight.geomys.org",
           "monitoring_url": "https://tuscolo2027h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "GoDaddy",
+      "logs": [
+      ],
+      "tiled_logs": [
+        {
+          "description": "Aquamarine 2026h2",
+          "log_id": "6jAGlJ1CunsD2FCB4yYsua5xil5vUDT3ePE4BU6CdFw=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMTyKhqKtqQBhdnxqQIiyXSX4/Zm4ejW8LrvCxxXLJ8UrchT0A7ZeXnc8vZEVV5oeelR0wOKLtDPLDh6nshBHcw==",
+          "submission_url": "https://ct-log-api.godaddy.com/aquamarine2026h2",
+          "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2026h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Aquamarine 2027h1",
+          "log_id": "/cLoBbiE8/CzcwbEliJzk9OExUIiB/1Aj+4CBc6jVhY=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDMQ0K5rmCd7krvHQytXOSmsQqRcDZRnbo6brb2ctD4QKL+XQr0CGU47OfQ2q08zRtKRiXZ6SDGKKHamcpL9t+Q==",
+          "submission_url": "https://ct-log-api.godaddy.com/aquamarine2027h1",
+          "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2027h1",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Aquamarine 2027h2",
+          "log_id": "8LDBho1KJqIqj/7ghUOplCvvi7u69tYBqyHdvnFJ/68=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQ54z+CumfMd4Ts18GjnllfUZoCjFFYQUGAeQ1KkuX7eNdxNEPyjXJrMaqRr5F6lYtT6XFkAohz/fkguaIhU51w==",
+          "submission_url": "https://ct-log-api.godaddy.com/aquamarine2027h2",
+          "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2027h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Emerald 2026h2",
+          "log_id": "MfD51ucVyKMNggtibsUyxBBvB1TFeo7udheREMJ5iyU=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEN9LmffhYGzHdHTsPHMjhcauQUPUEENDPwG8H7gPwa8alIysfRqGijM4s1pnyLoM6XVXvuzVQDVkQblC/q+1uRA==",
+          "submission_url": "https://ct-log-api-vmark.ote-godaddy.com/emerald2026h2",
+          "monitoring_url": "https://ct-log-api-vmark.ote-godaddy.com/emerald2026h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Emerald 2027h1",
+          "log_id": "tb0+EGT+9zzY34Mnx3pdBCTOfCAjT3mdvl4cg0wHEtw=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfTkuOugqwCwcrTvBKuk9SbiWt0x5hpg5kakqF3ZXEGwKmYh0vpzAGVVEFU5ygYL9vzqQUPZLRdxQPQfywuMU4w==",
+          "submission_url": "https://ct-log-api-vmark.ote-godaddy.com/emerald2027h1",
+          "monitoring_url": "https://ct-log-api-vmark.ote-godaddy.com/emerald2027h1",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Emerald 2027h2",
+          "log_id": "S2ep9ip3vNKoDF7ZU+qcp5bwvSSeRf77uGRDZUuqo0s=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhAsQ17+JR9J/hOJ1NgBbcoCC2EouzUn0BGHaNyYla/jwWhsumXWNzCPP5kf4kmhZU2sNwWs+oaw0q/AVmRARIw==",
+          "submission_url": "https://ct-log-api-vmark.ote-godaddy.com/emerald2027h2",
+          "monitoring_url": "https://ct-log-api-vmark.ote-godaddy.com/emerald2027h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Garnet 2026h2",
+          "log_id": "al8eeksEFIFGI1+zFI8gSFde1+y64fB8c5cbG7R4I18=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0rThtlkVFsJ3GJRZx7cxyP+ILNU+FC8voGuKmmL4xYdE/coNuOdKqljRX42YYBBAQg4Q3Nwq1YOzJ2BXsArCKg==",
+          "submission_url": "https://ct-log-api-vmark.godaddy.com/garnet2026h2",
+          "monitoring_url": "https://ct-log-api-vmark.godaddy.com/garnet2026h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Garnet 2027h1",
+          "log_id": "a2HRbaMFsDPkBfU4niLzK51wAFIYQpptTRiVUewRmZ8=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvH3tg5dn0fBO9d7AFEWmXioxQSsdddyWAIqe96aYgtBVWJbA8JIthEh7U7kNpg0psgBIzDHY9IQil7kwRshCag==",
+          "submission_url": "https://ct-log-api-vmark.godaddy.com/garnet2027h1",
+          "monitoring_url": "https://ct-log-api-vmark.godaddy.com/garnet2027h1",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Garnet 2027h2",
+          "log_id": "FbB0sWZA1ysUjTR5CyJm+QXxG5AyAF0p8732Cy03WMM=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUgj86/IaSABTzFL5bZlfbqThpBfRgmAd83QLcF+VVp1YFLrlGLtkmktqnhJjRtC4+vo8kifh8bXfBynscYXWFQ==",
+          "submission_url": "https://ct-log-api-vmark.godaddy.com/garnet2027h2",
+          "monitoring_url": "https://ct-log-api-vmark.godaddy.com/garnet2027h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Peridot 2026h2",
+          "log_id": "IlFW1HpjXJSqCIQDqiVlrU6FprYt5QbSGXSPpuWtr+o=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEiguGhaa21QNf+HT57KdtW3YJdMWMYMEQgTc/tUXcDJ/lvkSIc7obTs62Q05uvhCpdkl+nPKTZ6BK+I2EQvquLw==",
+          "submission_url": "https://ct-log-api.ote-godaddy.com/peridot2026h2",
+          "monitoring_url": "https://ct-log-api.ote-godaddy.com/peridot2026h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Peridot 2027h1",
+          "log_id": "uQZJ+zrqe6Oa1q4PZoCN0H/8Zb1Iv/5dBHwRxGf3Cpc=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKqY3HmwcWF08N/9CUNjvdaV0AYBGgaQ1TQRID5QI2B0UdKbrF6V9VYMGBS3JVykr7/fwczS2vzv+q4Ns4zGhYw==",
+          "submission_url": "https://ct-log-api.ote-godaddy.com/peridot2027h1",
+          "monitoring_url": "https://ct-log-api.ote-godaddy.com/peridot2027h1",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Peridot 2027h2",
+          "log_id": "d4YT3Ty3SiKSAVEPydfD6toURoNgveOWXcfne2UU9c8=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQ21Zx5bWD5pHsIOKji740mxkWJmSG7lg3LcT2/1pCtIl9hPVR5C8hOOjTjWFNWJaWWStGa0czpYjivLdv+uVrw==",
+          "submission_url": "https://ct-log-api.ote-godaddy.com/peridot2027h2",
+          "monitoring_url": "https://ct-log-api.ote-godaddy.com/peridot2027h2",
           "mmd": 60,
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
@@ -961,18 +1087,6 @@
       ],
       "tiled_logs": [
         {
-          "description": "Gouda 2026h1",
-          "log_id": "GoudaUpXmMiZoMqIvfSPwLRWYMzDYA0fcfRp/8fRrKM=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAER6wvqVwhf5isuCtwSfNjTOrqwZg0vZuIMP7xk8fPmJfaFZCte1ptQiqNhRMCtqIgJvDcJyjkGVI8i44vxL877A==",
-          "submission_url": "https://gouda2026h1.log.ct.ipng.ch",
-          "monitoring_url": "https://gouda2026h1.mon.ct.ipng.ch",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2026-01-01T00:00:00Z",
-            "end_exclusive": "2026-07-01T00:00:00Z"
-          }
-        },
-        {
           "description": "Gouda 2026h2",
           "log_id": "Goudaw/+v4G0eTnG0jEKhtbRAtTwRuIYLJ3jX14mJe8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjayczmhUMNftWy6VjvYXcTUEpvL8LIAKcYcxrxx5xxQGZEVvhnZeCnXVlsMWhq1h9J55eZfQWM/dqIr6GmoN9Q==",
@@ -1006,18 +1120,6 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Halloumi 2026h1",
-          "log_id": "fz035/iSPY5xZb6w0+q+5yoivkbAy4TEFtTkuYJky8I=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzdcnGwRjm2ZoA68JFZKfoM4cOPPG2fr0iR72p3XanznOlw57HJ9RlYRNt75gIMIKgB1r0dxY5Jojq1m8uobYjg==",
-          "submission_url": "https://halloumi2026h1.log.ct.ipng.ch",
-          "monitoring_url": "https://halloumi2026h1.mon.ct.ipng.ch",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2026-01-01T00:00:00Z",
-            "end_exclusive": "2026-07-01T00:00:00Z"
           }
         },
         {
@@ -1057,19 +1159,6 @@
           }
         },
         {
-          "description": "Lipase 2026h1",
-          "log_id": "b8whyKsJkXnvusRMwpnQ7EENf77I4306CVV2zZ9jxgg=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErPjPlZYd4uo5aH/eIfHevbWqGHIiQIb7CXg0OszD+a0jbGERdUrnBP8afGBq6ey4/vDgI9aqqGiCmT9YGb1x4A==",
-          "submission_url": "https://lipase2026h1.log.ct.ipng.ch",
-          "monitoring_url": "https://lipase2026h1.mon.ct.ipng.ch",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2026-01-01T00:00:00Z",
-            "end_exclusive": "2026-07-01T00:00:00Z"
-          },
-          "log_type": "test"
-        },
-        {
           "description": "Lipase 2026h2",
           "log_id": "wrITHXl+UNevVCq6lNe/gvkblit8VSpx1d6TA3oaZHo=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzbuyo3fveONSA2O1SGsO+FH+H3nKfkOBGeDYAUwvP9xVt4leZF5ATRrvyAq6fh1ryXrq3KpIGjVkZxetF4c3QQ==",
@@ -1105,19 +1194,6 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
-          },
-          "log_type": "test"
-        },
-        {
-          "description": "Rennet 2026h1",
-          "log_id": "IPng7N+kfJEgOWLvg8kCWPeQbZ03SYvh/9hJVBcyCyA=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjjELwgGMea6d7YAOP1h1Q3z5IGFOFV/kmbT0qdRgMbhQCYZdDU/fObbHf7dPEGjlg/XbBCnmHJKJySK85tzC2w==",
-          "submission_url": "https://rennet2026h1.log.ct.ipng.ch",
-          "monitoring_url": "https://rennet2026h1.mon.ct.ipng.ch",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2026-01-01T00:00:00Z",
-            "end_exclusive": "2026-07-01T00:00:00Z"
           },
           "log_type": "test"
         },
