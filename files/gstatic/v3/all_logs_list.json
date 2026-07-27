@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "88.13",
-  "log_list_timestamp": "2026-07-22T13:49:18Z",
+  "version": "89.0",
+  "log_list_timestamp": "2026-07-27T13:38:27Z",
   "operators": [
     {
       "name": "Google",
@@ -742,8 +742,8 @@
           "url": "https://oak.ct.letsencrypt.org/2026h1/",
           "mmd": 86400,
           "state": {
-            "retired": {
-              "timestamp": "2026-02-28T00:00:00Z"
+            "rejected": {
+              "timestamp": "2026-07-27T13:40:00Z"
             }
           },
           "temporal_interval": {
