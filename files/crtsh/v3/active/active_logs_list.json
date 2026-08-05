@@ -250,6 +250,71 @@
       ],
       "tiled_logs": [
         {
+          "description": "Loreto 2026h2",
+          "log_id": "ab9A2UVnJS4BlP6nBRtUEuFQXNoa4jl9v9Bs8xHlT0M=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEma/X8gFLvrdCvDdkgYCdPK5PPLpvsMCkpmQSb/kWN8dmvwdqsBZ7uCeZ4cROJN9Lq8+kK5l71D0Dhr3gfpHAWQ==",
+          "submission_url": "https://loreto2026h2.sunlight.geomys.org",
+          "monitoring_url": "https://loreto2026h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Loreto 2027h1",
+          "log_id": "Xc5PR+HukOBBmC4hu8AaRBkJ6RSgrPqZvmR14ehS5G0=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERt6nJkLQjMtWAPu6MQbRv3CBHsZ7mdzLDrtwf3+gGAi35sm9KVI7EOo290+btG826UbBgPxaKkaxqKn2eziJDQ==",
+          "submission_url": "https://loreto2027h1.sunlight.geomys.org",
+          "monitoring_url": "https://loreto2027h1.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Loreto 2027h2",
+          "log_id": "l+Nn1Cj4+eN9t44Wr6OSchVVqFNB/A6p0VP+a1k1CfI=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7YvrT5X933YQ5QfDT5ieUVccNxZ5Mh63fisDjlQLfhhIae1ngDsaypgQwvsdkDjoXwy3M3DHDzFU5JJPDyzV0w==",
+          "submission_url": "https://loreto2027h2.sunlight.geomys.org",
+          "monitoring_url": "https://loreto2027h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Loreto 2028h1",
+          "log_id": "hIoVJRlQTOJ9Um/iv2HiW6+cat2TxpYrvfyjYhwql0g=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2Ney/nDA+O9+7RW9Is+dyI0Ij6NYSQhZ6F/KOlVQ/pIgcujprZMAuENLaDQvCLM/vK/JpDkV/PduZ2cOKqGgcw==",
+          "submission_url": "https://loreto2028h1.sunlight.geomys.org",
+          "monitoring_url": "https://loreto2028h1.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Loreto 2028h2",
+          "log_id": "GzfGp/3fuQOhKYceQv77lq/tuLv+1CcQfWOvgK8NXiA=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO7Eab1Wrna/09SfplminqQMr8Ar6OFB+vDqJMhLTyd43Alg0bKwqofQJRm/Ue9efX+9HvBcL0CTiMSmJwWj6Uw==",
+          "submission_url": "https://loreto2028h2.sunlight.geomys.org",
+          "monitoring_url": "https://loreto2028h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
           "description": "Navigli 2026h2",
           "log_id": "JKaah8LdWC3VArJRfww4J/MLTqhKJBO1U+b78YzxX+8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE35uLGxEy/DbYDRg6/078qvcc2D0GyS8Iu8xG1CU8Ab133mXVcYtUJL5XlKP8768znap35cwzLbQUgYsmBIOs3Q==",
@@ -289,6 +354,92 @@
           "log_type": "test"
         },
         {
+          "description": "Navigli 2028h1",
+          "log_id": "ncndbdJMX4YFu8W6TiQLEVOh0CXAkq/NLwKJI4Ne6DA=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWzg2K3xKGP8OkqdRW6fAwBL6dDluyCtNk8u9zuJcRJPTJJoM5WlrIpORLExHZOVLWojJcEsVUZg1mg53t2QIag==",
+          "submission_url": "https://navigli2028h1.sunlight.geomys.org",
+          "monitoring_url": "https://navigli2028h1.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Navigli 2028h2",
+          "log_id": "93DB4t7xgrZN1YvmEPBzobPLmvUmpb4ZD9xm8+8ZyfM=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEH+NdiIi/aITbPgiLHMxczExSuy6DDUE1SNkvEa8xD3FI5fSgLV7s0qCXgww9SH0VoHbN1P8UwTurkK0hEDnyxQ==",
+          "submission_url": "https://navigli2028h2.sunlight.geomys.org",
+          "monitoring_url": "https://navigli2028h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Trastevere 2026h2",
+          "log_id": "yMaDuhp5vKPNGyZsbZ6MzSf0hFEMerHyV59nUhBYOgM=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEzFcfnR+P+xG2TA2LWjhkeMcQMTU62r6koepINb7hwcl/hitPLeUzD3vRDpNyvq+9Vrci1FEmctYDWH+iZ2hww==",
+          "submission_url": "https://trastevere2026h2.sunlight.geomys.org",
+          "monitoring_url": "https://trastevere2026h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Trastevere 2027h1",
+          "log_id": "F23RQr8KrLyBjUUTu9zDCtteWTJiU5KLmtfLdg/247k=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGYiRUG5f1qpqGWsFjfXZZT5NqkWVUJdtRSsWyhKOXXryyIIlfsUtKhmqJSPJhkxS9U1hgPQZ5dzXDA5x/5pYA==",
+          "submission_url": "https://trastevere2027h1.sunlight.geomys.org",
+          "monitoring_url": "https://trastevere2027h1.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Trastevere 2027h2",
+          "log_id": "dZIIKK86Y1XymO0JfjR1dfm5hDwR4TkfV0QpnxyujO4=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJPGejk3XdRtqgzqM5SJPvN9Y6CpSincXJAFPzR4+/hP6KuWhmeL1GVCnbYJ2hFS94pE8k7feYNGB6tuYkvXw2Q==",
+          "submission_url": "https://trastevere2027h2.sunlight.geomys.org",
+          "monitoring_url": "https://trastevere2027h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Trastevere 2028h1",
+          "log_id": "j5ct6c9T2eqhZDHY6vWLWGZ8/QysT5c0VLGZaVHvlYc=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE05RdO9dxuePFpoo+c/h8Aj9iOsl3dRzRJarigJiLWXEtm9JV9n0rs9M/fDVSSwGEh2p9PUO8RR1+6Bt77v2iLQ==",
+          "submission_url": "https://trastevere2028h1.sunlight.geomys.org",
+          "monitoring_url": "https://trastevere2028h1.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Trastevere 2028h2",
+          "log_id": "y6VZ4BSDyZ+U7N2er0ezmWM1bZ/1wShe6un50SqgTMc=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEB4h5MMLSgZuO0R2uMCvA/5WYIvsiYMcYLviqSqL6RNnpOnXiGlz49iWeo7n0R+v9CUj0Clv2In5EwnHwGK2/Tw==",
+          "submission_url": "https://trastevere2028h2.sunlight.geomys.org",
+          "monitoring_url": "https://trastevere2028h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          }
+        },
+        {
           "description": "Tuscolo 2026h2",
           "log_id": "Rq+GPTs+5Z+ld96oJF02sNntIqIj9GF3QSKUUu6VUF8=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaA6P0i7JTsd9XfzF1/76avRWA3XXI4NStsFO/aFtBp6SY7olDEMiPSFSxGzFQjKA1r9vgG/oFQwurlWMy9FQNw==",
@@ -322,6 +473,30 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Tuscolo 2028h1",
+          "log_id": "TefD7+U3ZpoMsB44OPqv3PCMmoBWM55wK1iVm9FxiS4=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoCrY9Jw/QWI36H+7Y8UlXfNOxk2Atg3H3nXSqLKz52sV4RV9ERRq/IjD4uSP/k5xCT+4nHCjAL8kRjGUeslejw==",
+          "submission_url": "https://tuscolo2028h1.sunlight.geomys.org",
+          "monitoring_url": "https://tuscolo2028h1.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Tuscolo 2028h2",
+          "log_id": "A18eYQnn44YBqbhkHlfl9aePeIcnUy/PQlPx68mqDzk=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFvXbrz+N3iRcf4pomNlyVokxas/fGQu1DqxIbZ9M34w9W98lDao2v6qV7mRDDDcoh2kSfyAe6GxLuBMrmRPEMg==",
+          "submission_url": "https://tuscolo2028h2.sunlight.geomys.org",
+          "monitoring_url": "https://tuscolo2028h2.skylight.geomys.org",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
           }
         }
       ]
@@ -1198,6 +1373,32 @@
           "log_type": "test"
         },
         {
+          "description": "Lipase 2028h1",
+          "log_id": "sbQYsbamb7ODsHtgVE2SJjxWflCcg43k5iDWwSBnXLw=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXyNhBrrDAZHX2lHjLjs8sEPs9o+MG6b+v4VRWmBqs6Iw1VkBfh/9XA7rK8tt5uhv93cRV1of7Q91whkwye8JZQ==",
+          "submission_url": "https://lipase2028h1.log.ct.ipng.ch",
+          "monitoring_url": "https://lipase2028h1.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Lipase 2028h2",
+          "log_id": "2nxn6X3UVyCdoBFZkSX0qARqTVyzjEwJouYV0iD6Nvo=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4jCaz3K7lexB3bSze73pg+l3QMoXdLwLaBa33hKv5aTb0FtIdLGIZNgUgfTi4JWgZyRRDyFtis4zomgACAjF5g==",
+          "submission_url": "https://lipase2028h2.log.ct.ipng.ch",
+          "monitoring_url": "https://lipase2028h2.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
           "description": "Rennet 2026h2",
           "log_id": "IPngiezr0NlfrYnreI+2QK/E2J+7QNyCETQxnDW/CNo=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDjJrRh/NjSFYybFPOmilmqVHySfQ4a8ctJKYhWDuRLBLNLwy2PXxqVWwQStfjHXv0JofEAC00Xfrbd4aVz/7Bw==",
@@ -1233,6 +1434,32 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Rennet 2028h1",
+          "log_id": "ntVPNfWuYK1M41RHtpzSBwkuD3+h7AirxuMMQetk+Jc=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErTXHRCxT39oYZ6+8AP6P36ZrEDCo4RjgMcFbdFC1/NXqUlhBxnlT0P0+xswd61GFhXpUU506ZdzV6oaMgk6oJQ==",
+          "submission_url": "https://rennet2028h1.log.ct.ipng.ch",
+          "monitoring_url": "https://rennet2028h1.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Rennet 2028h2",
+          "log_id": "gTnHyZSW085X/B39piatOjatx5ytziHfvPIB6FkcRWQ=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgCHfJO2CZQCDOpjyZdQFsjj3gYYjYAwR2qvVlWusW88uFxvYGgqrWNCWXUPbOOFf24GRGrak6NeGEPq4IBW6EQ==",
+          "submission_url": "https://rennet2028h2.log.ct.ipng.ch",
+          "monitoring_url": "https://rennet2028h2.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
           },
           "log_type": "test"
         }
