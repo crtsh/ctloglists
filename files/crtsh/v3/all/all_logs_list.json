@@ -1935,6 +1935,30 @@
           }
         },
         {
+          "description": "Gouda 2028h1",
+          "log_id": "EgXQJVrBiTyuVBBwPE8Sc/yXAOErWEp/gGrcVVWAwLE=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5mgCmJbPo4B+gxJf8U94HykKo0cBsGsqnSu/ycQ61WGS6b/XL2StiN28YF8/8I4GmLQBDUkz1sTOG4syBcKYMw==",
+          "submission_url": "https://gouda2028h1.log.ct.ipng.ch",
+          "monitoring_url": "https://gouda2028h1.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Gouda 2028h2",
+          "log_id": "ANXCUqZpzf6O0sgXpi5M/O2SyHSR7pccmv3bUoh4hag=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENtjPyH/uZmZuu4RQSJU0p+unP9ZZKv/Z4MLpQhdbiFGgUBIgBr6urLPCIzSFZuM4HhgnnwiI4aS7Wpi0kMEoNw==",
+          "submission_url": "https://gouda2028h2.log.ct.ipng.ch",
+          "monitoring_url": "https://gouda2028h2.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          }
+        },
+        {
           "description": "Halloumi 2025h2",
           "log_id": "+3xjpo0eBq3Qg4ibuNQyHLJFROv2/mlyKRkuOD5ebiM=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqJxSnCcMhWikCFeWo1RiplGaVEZL5Vn4KEJYZM97Ro5XuTg4h6+n807utfPS7qqpLv5me/ddlpKFGoFfkMBrAQ==",
@@ -2004,6 +2028,30 @@
           "temporal_interval": {
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Halloumi 2028h1",
+          "log_id": "6+a9C+qJOkTtPzg+2/4QzZnxhphufXsmsBqEMk57934=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQVDEFJcCWS8jtF8M3uMfghI3wMo6VwH2Cpf/9P1x9/sv7aV8WSnrw7pq0EW1njmLo/6FBoCWHLpqoGKmBZKDVg==",
+          "submission_url": "https://halloumi2028h1.log.ct.ipng.ch",
+          "monitoring_url": "https://halloumi2028h1.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Halloumi 2028h2",
+          "log_id": "ALNWz93lJLRlXUxjZTxSUMQ04goEhRA5uv1kzlyFq2s=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEZvv84G/hcMbLeIokkLkT0JPzRkdV5VvAXpWGYJGwwETCO447iGSZScyW0ROuNbvsotXYjs02ADpW+6OTD0hXg==",
+          "submission_url": "https://halloumi2028h2.log.ct.ipng.ch",
+          "monitoring_url": "https://halloumi2028h2.mon.ct.ipng.ch",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
           }
         },
         {
