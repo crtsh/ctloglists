@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "89.31",
-  "log_list_timestamp": "2026-08-26T13:37:57Z",
+  "version": "90.0",
+  "log_list_timestamp": "2026-08-31T13:44:05Z",
   "operators": [
     {
       "name": "Google",
@@ -181,8 +181,8 @@
           "monitoring_url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/",
           "mmd": 60,
           "state": {
-            "qualified": {
-              "timestamp": "2026-06-19T19:00:00Z"
+            "usable": {
+              "timestamp": "2026-08-31T13:50:00Z"
             }
           },
           "temporal_interval": {
@@ -198,8 +198,8 @@
           "monitoring_url": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/",
           "mmd": 60,
           "state": {
-            "qualified": {
-              "timestamp": "2026-06-19T19:00:00Z"
+            "usable": {
+              "timestamp": "2026-08-31T13:50:00Z"
             }
           },
           "temporal_interval": {
@@ -215,8 +215,8 @@
           "monitoring_url": "https://storage.googleapis.com/parcelyard2027h2.prod.certificate.transparency.goog/",
           "mmd": 60,
           "state": {
-            "qualified": {
-              "timestamp": "2026-06-19T19:00:00Z"
+            "usable": {
+              "timestamp": "2026-08-31T13:50:00Z"
             }
           },
           "temporal_interval": {
@@ -232,8 +232,8 @@
           "monitoring_url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/",
           "mmd": 60,
           "state": {
-            "qualified": {
-              "timestamp": "2026-06-19T19:00:00Z"
+            "usable": {
+              "timestamp": "2026-08-31T13:50:00Z"
             }
           },
           "temporal_interval": {
@@ -249,8 +249,8 @@
           "monitoring_url": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/",
           "mmd": 60,
           "state": {
-            "qualified": {
-              "timestamp": "2026-06-19T19:00:00Z"
+            "usable": {
+              "timestamp": "2026-08-31T13:50:00Z"
             }
           },
           "temporal_interval": {
@@ -266,8 +266,8 @@
           "monitoring_url": "https://storage.googleapis.com/plumbersarms2027h2.prod.certificate.transparency.goog/",
           "mmd": 60,
           "state": {
-            "qualified": {
-              "timestamp": "2026-06-19T19:00:00Z"
+            "usable": {
+              "timestamp": "2026-08-31T13:50:00Z"
             }
           },
           "temporal_interval": {
