@@ -3321,6 +3321,10 @@
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyc0ly2S89/mbHngFzMOdgQDUEWWtb7BWTu8foA6qwh0yXR1jhTt2WkPQhK+j0omdiKEizysoElQGCAMiYe5LPg==",
           "url": "https://tigger2025.ctlabs.sectigo.com",
           "mmd": 86400,
+          "temporal_interval": {
+            "start_inclusive": "2025-01-01T00:00:00Z",
+            "end_exclusive": "2026-01-01T00:00:00Z"
+          },
           "log_type": "test"
         },
         {
@@ -3329,6 +3333,10 @@
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdh/cBL5t5uz1BRtpazOxuJfUTAQEwo/MtjyzdJqeFETFdjBKJxbOcQcQAhFrp7Ef1Zv998p0V2Rj9lloFDt9YA==",
           "url": "https://tigger2026.ctlabs.sectigo.com",
           "mmd": 86400,
+          "temporal_interval": {
+            "start_inclusive": "2026-01-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          },
           "log_type": "test"
         },
         {
@@ -3337,10 +3345,22 @@
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtgd6K1O2eC+m8NHQwud/88kVUvRlY6R74OadAamS8203Y/EhLtX7clvh/VLbDD7Je+lbNe29R8WgTlT2E4Q0Ow==",
           "url": "https://tigger2027.ctlabs.sectigo.com",
           "mmd": 86400,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          },
           "log_type": "test"
         }
       ],
       "tiled_logs": [
+        {
+          "description": "Standee",
+          "log_id": "BNy99yliOICLBl4Ruo6rvCTqBgFllnufzEqgeU7XBIk=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/DZwuwddTcD6qqUmnxWJ9qhoX5TZTMSJ2r8ktv9ozIwhGfC0a7g0t9g9+i5YHbCdW4++YBRVzCyVJTXtxnkQyg==",
+          "submission_url": "https://standee.sub.ctlabs.sectigo.com",
+          "monitoring_url": "https://standee.mon.ctlabs.sectigo.com",
+          "mmd": 60
+        }
       ]
     },
     {
@@ -3514,7 +3534,7 @@
           }
         },
         {
-          "description": "HETU 2027",
+          "description": "Hetu 2027",
           "log_id": "7drrgVxjITRJtHvlB3kFq9DZMUfCesUUazvFjkPptsc=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE14jG8D9suqIVWPtTNOL33uXKZ4mUnnOMrIwOWeZU7GtoDRCWIXfy/9/SC8lTAbtP2NOP4wjIufAk6f64sY4DWg==",
           "url": "https://hetu2027.trustasia.com/hetu2027",
@@ -3522,6 +3542,28 @@
           "temporal_interval": {
             "start_inclusive": "2026-12-25T00:00:00Z",
             "end_exclusive": "2028-01-08T00:00:00Z"
+          }
+        },
+        {
+          "description": "Hetu 2028h1",
+          "log_id": "AxRFHZo9qHGMPUPsalVKqeaxBj2WyvEIPOlbqxohslI=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETuKOEs4KmC9s+RBsnu8UTL7n27dg4CmiDoqfx+UILtbAmjV+y3TMKscl196fThZeiQ4bIXogbLYA3I+uDkufkQ==",
+          "url": "https://hetu2028h1.trustasia.com/hetu2028h1",
+          "mmd": 14400,
+          "temporal_interval": {
+            "start_inclusive": "2027-12-24T00:00:00Z",
+            "end_exclusive": "2028-07-08T00:00:00Z"
+          }
+        },
+        {
+          "description": "Hetu 2028h2",
+          "log_id": "sDlwg716fzI53IEXIOme7dIRa5VkWtm+B2JmLqJGjO4=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFVi30yHsCToyKnZ2Y0HH+Xb1IrR9s12Hyw8o9YNJ4Z7M/vZsn1uXoX0bECvkVbsmAwRlRRW+qSiYqa9U+IjSRA==",
+          "url": "https://hetu2028h2.trustasia.com/hetu2028h2",
+          "mmd": 14400,
+          "temporal_interval": {
+            "start_inclusive": "2028-06-24T00:00:00Z",
+            "end_exclusive": "2029-01-08T00:00:00Z"
           }
         }
       ],
@@ -3536,6 +3578,30 @@
           "temporal_interval": {
             "start_inclusive": "2026-12-24T00:00:00Z",
             "end_exclusive": "2028-01-08T00:00:00Z"
+          }
+        },
+        {
+          "description": "Luoshu 2028h1",
+          "log_id": "cd1QREFkibQDp3c0FPKGnt4CnXEI84DXfoJshKW/fls=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJkPBruid0R0HTLOABc0k17KKS1ZLZQVtlE7qsuauDs+khqu9M4BygSjziUlvQLdAonmbOr3wIDJK1JkBBRhGxA==",
+          "submission_url": "https://luoshu2028h1.trustasia.com/luoshu2028h1",
+          "monitoring_url": "https://tile-luoshu2028h1.trustasia.com/luoshu2028h1",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-12-24T00:00:00Z",
+            "end_exclusive": "2028-07-08T00:00:00Z"
+          }
+        },
+        {
+          "description": "Luoshu 2028h2",
+          "log_id": "jap0vUvSSHaUVxo2MsA8HZSVk3N5615qDROINcMzR8k=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWRv8wFzS8rpjgT7uAby2nouThLq8QIPdtvY9E3BiJq0V8lmnB9QkoFrNYMssyvznPnfOkz76UNeYjKKszivytQ==",
+          "submission_url": "https://luoshu2028h2.trustasia.com/luoshu2028h2",
+          "monitoring_url": "https://tile-luoshu2028h2.trustasia.com/luoshu2028h2",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-06-24T00:00:00Z",
+            "end_exclusive": "2029-01-08T00:00:00Z"
           }
         }
       ]

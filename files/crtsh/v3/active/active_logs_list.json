@@ -1958,6 +1958,14 @@
         }
       ],
       "tiled_logs": [
+        {
+          "description": "Standee",
+          "log_id": "BNy99yliOICLBl4Ruo6rvCTqBgFllnufzEqgeU7XBIk=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/DZwuwddTcD6qqUmnxWJ9qhoX5TZTMSJ2r8ktv9ozIwhGfC0a7g0t9g9+i5YHbCdW4++YBRVzCyVJTXtxnkQyg==",
+          "submission_url": "https://standee.sub.ctlabs.sectigo.com",
+          "monitoring_url": "https://standee.mon.ctlabs.sectigo.com",
+          "mmd": 60
+        }
       ]
     },
     {
