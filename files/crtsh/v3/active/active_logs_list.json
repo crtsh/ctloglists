@@ -1959,12 +1959,108 @@
       ],
       "tiled_logs": [
         {
+          "description": "Monument 2027h1",
+          "log_id": "lU+RNjI2rVhXzDYVRyLcQOf5ugowsOdS+/DHSylmVrg=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE35R0yxGn1SeQHYGCO82O4hAP5Ace6KRMyVY1karr/hWvO8KEm+EWYbk2xrWnlVsyeeBPsR/nOZFoXgbSs1EKQg==",
+          "submission_url": "https://monument2027h1.sub.ct.sectigo.com",
+          "monitoring_url": "https://monument2027h1.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Monument 2027h2",
+          "log_id": "tvzC6p+E49qX4wl/sfIW6R/w154KB0QDJbBvlPXmU8U=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzAWvoYfHsDXwXaxHUTOAOYx+vESfGpSKTYPUwwDYIwKe1g4lsEmoMwlFJNP2wC8M3g721r663BQaU7I5tKa5jw==",
+          "submission_url": "https://monument2027h2.sub.ct.sectigo.com",
+          "monitoring_url": "https://monument2027h2.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Monument 2028h1",
+          "log_id": "Mk28xZLuH+bg6aYx4WURJaunVGze9l0TxxGtWhs4aqk=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE91RAoG4RS78L2dnlvN9uR7kSdPglMOYAR1Bwbh7p5Dv2yehL3OF/EiSyHCU9SaP846hR7XMNSYMIO4uYCloGgQ==",
+          "submission_url": "https://monument2028h1.sub.ct.sectigo.com",
+          "monitoring_url": "https://monument2028h1.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Monument 2028h2",
+          "log_id": "bHsR9YaIq7BLUlT3PyIbVVjgvpNRI3MlcGGfeugsbBA=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEI7iVUCkAaGP0gSWSox44MjTOQ5mngbn7cq9zS0Q3/+lMi3LNQ5J/yA8szRlS7HdkdnvfP4QFh4XMIbeCiYapYw==",
+          "submission_url": "https://monument2028h2.sub.ct.sectigo.com",
+          "monitoring_url": "https://monument2028h2.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          }
+        },
+        {
           "description": "Standee",
           "log_id": "BNy99yliOICLBl4Ruo6rvCTqBgFllnufzEqgeU7XBIk=",
           "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/DZwuwddTcD6qqUmnxWJ9qhoX5TZTMSJ2r8ktv9ozIwhGfC0a7g0t9g9+i5YHbCdW4++YBRVzCyVJTXtxnkQyg==",
           "submission_url": "https://standee.sub.ctlabs.sectigo.com",
           "monitoring_url": "https://standee.mon.ctlabs.sectigo.com",
           "mmd": 60
+        },
+        {
+          "description": "Statue 2027h1",
+          "log_id": "k0C4iKejzC796l4cBupj6U7f6w4VXgIIZFIAYZlMotE=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFiK9nBjtUDiFSLvuKxotVbJ2aX2ldnNhEa1KGSMfF1D3IDe/rFp6cbGJIPkLzwv8SZbXKbNbcz51kL1Wmukjrg==",
+          "submission_url": "https://statue2027h1.sub.ct.sectigo.com",
+          "monitoring_url": "https://statue2027h1.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Statue 2027h2",
+          "log_id": "V+RgJ5TwE01vJbkN3nyKr9cuefY8ogzD9dFPs4lFv1U=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEn+NsNAQqvjgRLZOhS78P8JsdDwMXsASG3ZO1gqeH3dAu7MojoOV4gEZVnFtfO4KPc8pw632rpKsi2edP6rtjxg==",
+          "submission_url": "https://statue2027h2.sub.ct.sectigo.com",
+          "monitoring_url": "https://statue2027h2.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Statue 2028h1",
+          "log_id": "/Cvx3M57P/mNzO4pdqi0IuiOCa6pt5mhesjSWzqR+MA=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEffgZsTRT+6CoRLKvp2VwyZbkyvkf8HLcP6VirHDuMAvQ9jKleGpJ/XhA2ycs2DNcMyFnraw02UOVjqHVATKKBQ==",
+          "submission_url": "https://statue2028h1.sub.ct.sectigo.com",
+          "monitoring_url": "https://statue2028h1.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Statue 2028h2",
+          "log_id": "Zw/v+c0tZeC4UfTSi9vY+BdtNeIL3fhbQhT74s+jXiM=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENWGrBZrsi2C7vFdCeHyMu5wMDcs1DavVuy9ngm2zhXPrvO4e+uEouxgsHsan4P3OkKC5RoYolyxRaOmuC0ys5w==",
+          "submission_url": "https://statue2028h2.sub.ct.sectigo.com",
+          "monitoring_url": "https://statue2028h2.mon.ct.sectigo.com",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          }
         }
       ]
     },
