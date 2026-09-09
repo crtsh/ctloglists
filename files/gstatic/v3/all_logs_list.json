@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "90.8",
-  "log_list_timestamp": "2026-09-08T13:35:36Z",
+  "version": "91.0",
+  "log_list_timestamp": "2026-09-09T13:39:05Z",
   "operators": [
     {
       "name": "Google",
@@ -1277,8 +1277,8 @@
           "monitoring_url": "https://tuscolo2028h1.skylight.geomys.org/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-04T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1294,8 +1294,8 @@
           "monitoring_url": "https://tuscolo2028h2.skylight.geomys.org/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-04T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1311,8 +1311,8 @@
           "monitoring_url": "https://trastevere2026h2.skylight.geomys.org/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-04T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1328,8 +1328,8 @@
           "monitoring_url": "https://trastevere2027h1.skylight.geomys.org/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-04T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1345,8 +1345,8 @@
           "monitoring_url": "https://trastevere2027h2.skylight.geomys.org/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-04T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1362,8 +1362,8 @@
           "monitoring_url": "https://trastevere2028h1.skylight.geomys.org/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-04T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1379,8 +1379,8 @@
           "monitoring_url": "https://trastevere2028h2.skylight.geomys.org/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-04T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1662,8 +1662,8 @@
           "monitoring_url": "https://gouda2028h1.mon.ct.ipng.ch/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-08T18:00:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1679,8 +1679,8 @@
           "monitoring_url": "https://gouda2028h2.mon.ct.ipng.ch/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-08T18:00:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1696,8 +1696,8 @@
           "monitoring_url": "https://halloumi2028h1.mon.ct.ipng.ch/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-08T18:00:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -1713,8 +1713,8 @@
           "monitoring_url": "https://halloumi2028h2.mon.ct.ipng.ch/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-08T18:00:00Z"
+            "qualified": {
+              "timestamp": "2026-09-09T13:45:00Z"
             }
           },
           "temporal_interval": {
