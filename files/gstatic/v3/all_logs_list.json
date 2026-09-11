@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "91.1",
-  "log_list_timestamp": "2026-09-10T13:37:30Z",
+  "version": "91.2",
+  "log_list_timestamp": "2026-09-11T13:35:11Z",
   "operators": [
     {
       "name": "Google",
@@ -1955,6 +1955,79 @@
           "state": {
             "pending": {
               "timestamp": "2026-08-26T17:30:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2028-07-01T00:00:00Z",
+            "end_exclusive": "2029-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "HARICA",
+      "email": [
+        "ct-log-ops@harica.gr"
+      ],
+      "logs": [],
+      "tiled_logs": [
+        {
+          "log_id": "g92PTAqC4jctZFmPZBgRxF27h4JAz96XF7b9cOQAZ4c=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEp31CH7O1ZoSn90SXs7AxRbijXxYlV8UDMS0Q/zBGafU2yHlDzhGcoauEjpmjvH45TF7IamA8EVe4NjAaXWdAnw==",
+          "submission_url": "https://selene.ct.harica.eu/selene2027h1/",
+          "monitoring_url": "https://selene.mon.ct.harica.eu/selene2027h1/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2026-09-09T18:30:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "log_id": "sYdPqlxcQTingZPPo7kk2ImvyDNpOcfp+q0JVhrGpV4=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzkHK2i2jO3Js7SToO7tc8d8qlxszbTjxt0wnnASCU+tIqKJLBJjmagsZsCGX7XrEK3mboD3p4Du7Viut6VcMGw==",
+          "submission_url": "https://selene.ct.harica.eu/selene2027h2/",
+          "monitoring_url": "https://selene.mon.ct.harica.eu/selene2027h2/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2026-09-09T18:30:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        },
+        {
+          "log_id": "GZ9TRtShpGoaPdygptJx/Taqms3LslRJmOM+dVHZi8k=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGJlHidjMrZ5jsmI9rU6INoPHv7FJ6NxlueXO8+p3e7EcTRj6uR2r2tjVKZyMdFM7zPT3QjPgi4jgM/fwtr5DKw==",
+          "submission_url": "https://selene.ct.harica.eu/selene2028h1/",
+          "monitoring_url": "https://selene.mon.ct.harica.eu/selene2028h1/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2026-09-09T18:30:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2028-01-01T00:00:00Z",
+            "end_exclusive": "2028-07-01T00:00:00Z"
+          }
+        },
+        {
+          "log_id": "+ZgQ1evkfhzxtCH/beNb+MHsluJeBNv8dW9r5FxlXMo=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhv69aIT5VqkDal/4d7ah2Wl7eTJxB5eDkPybJgLXuIwgPrxmVMocOPc7s0q1wX87wKWimGNUBf8HvarCUVuhPQ==",
+          "submission_url": "https://selene.ct.harica.eu/selene2028h2/",
+          "monitoring_url": "https://selene.mon.ct.harica.eu/selene2028h2/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2026-09-09T18:30:00Z"
             }
           },
           "temporal_interval": {
