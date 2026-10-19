@@ -1,7 +1,7 @@
 {
     "$schema": "https://valid.apple.com/ct/log_list/schema_versions/log_list_schema_v5.json",
-    "assetVersion": 32,
-    "assetVersionV2": 1013,
+    "assetVersion": 33,
+    "assetVersionV2": 1014,
     "operators": [
         {
             "email": [
@@ -250,9 +250,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://raio2026h1a.ct.cloudflare.com/",
                     "state": {
-                        "usable": {
-                            "timestamp": "2025-11-17T21:04:05Z",
-                            "version": "441"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "submission_url": "https://ct.cloudflare.com/logs/raio2026h1a/",
@@ -864,9 +864,9 @@
                     "log_id": "DleUvPOuqT4zGyyZB7P3kN+bwj1xMiXdIaklrGHFTiE=",
                     "mmd": 86400,
                     "state": {
-                        "usable": {
-                            "timestamp": "2024-11-26T18:08:02Z",
-                            "version": "309"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -898,9 +898,9 @@
                     "log_id": "lpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcY=",
                     "mmd": 86400,
                     "state": {
-                        "usable": {
-                            "timestamp": "2024-11-26T18:08:37Z",
-                            "version": "311"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -962,7 +962,84 @@
                 }
             ],
             "name": "Google",
-            "tiled_logs": []
+            "tiled_logs": [
+                {
+                    "description": "Google prod 'parcelyard2027h1'",
+                    "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX7i7gYwmBxpiLXAlM/VLk4BFzspJRmZA86iReO7NVRlwGL1KWb/Dv5DRXJNBZd+9uREkNUTee5yBy2dRdRGa0w==",
+                    "log_id": "HIl0B+YBCgEpO7Z439ejaM6xjMpSHcyk04bkoy5bXQQ=",
+                    "mmd": 60,
+                    "monitoring_url": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/",
+                    "state": {
+                        "qualified": {
+                            "timestamp": "2026-09-16T23:53:31Z",
+                            "version": "518"
+                        }
+                    },
+                    "submission_url": "https://parcelyard2027h1.prod.certificate.transparency.goog/",
+                    "temporal_interval": {
+                        "end_exclusive": "2027-07-01T00:00:00Z",
+                        "start_inclusive": "2027-01-01T00:00:00Z"
+                    },
+                    "tls_only": true
+                },
+                {
+                    "description": "Google prod 'parcelyard2027h2'",
+                    "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+CTFsoroxXi53eLT+x2T4gsMKOcqzYEhqSLjyF6uVfdgF8yBeyA2cDWsu6nmhKGhqyoohwLh3PPgXdltfPP3BA==",
+                    "log_id": "aYS3IzyydLLRRn2l4EDXH+upCiHniGU3Srn5vPhocjc=",
+                    "mmd": 60,
+                    "monitoring_url": "https://storage.googleapis.com/parcelyard2027h2.prod.certificate.transparency.goog/",
+                    "state": {
+                        "qualified": {
+                            "timestamp": "2026-09-16T23:53:32Z",
+                            "version": "519"
+                        }
+                    },
+                    "submission_url": "https://parcelyard2027h2.prod.certificate.transparency.goog/",
+                    "temporal_interval": {
+                        "end_exclusive": "2028-01-01T00:00:00Z",
+                        "start_inclusive": "2027-07-01T00:00:00Z"
+                    },
+                    "tls_only": true
+                },
+                {
+                    "description": "Google prod 'plumbersarms2027h1'",
+                    "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAKYYdjIeQwDP0RIY9mhAVntX5s2ObMc2F6u8cELSbhvavljWD/OesJZHUtqQjBXE5Ekbpiq6nchmaVnEHHpJmw==",
+                    "log_id": "X/nA+6QtrHjOZELrGazggaKb1OL7U68MYzB55QWCBMk=",
+                    "mmd": 60,
+                    "monitoring_url": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/",
+                    "state": {
+                        "qualified": {
+                            "timestamp": "2026-09-16T23:53:32Z",
+                            "version": "520"
+                        }
+                    },
+                    "submission_url": "https://plumbersarms2027h1.prod.certificate.transparency.goog/",
+                    "temporal_interval": {
+                        "end_exclusive": "2027-07-01T00:00:00Z",
+                        "start_inclusive": "2027-01-01T00:00:00Z"
+                    },
+                    "tls_only": true
+                },
+                {
+                    "description": "Google prod 'plumbersarms2027h2'",
+                    "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEHCu5hooSXlk8FAiSkoWiZJ5G9GzCiJhj3eoJ9p3F3ZzV2QgcgxWWI9f75vnFgygju+baK11dsf3bXHAo/+TL/Q==",
+                    "log_id": "M3qex8rmqQSLdS8tk65+SyqQLSG0lxKdg+J5x1PJL4w=",
+                    "mmd": 60,
+                    "monitoring_url": "https://storage.googleapis.com/plumbersarms2027h2.prod.certificate.transparency.goog/",
+                    "state": {
+                        "qualified": {
+                            "timestamp": "2026-09-16T23:53:32Z",
+                            "version": "521"
+                        }
+                    },
+                    "submission_url": "https://plumbersarms2027h2.prod.certificate.transparency.goog/",
+                    "temporal_interval": {
+                        "end_exclusive": "2028-01-01T00:00:00Z",
+                        "start_inclusive": "2027-07-01T00:00:00Z"
+                    },
+                    "tls_only": true
+                }
+            ]
         },
         {
             "email": [
@@ -1441,9 +1518,9 @@
                     "log_id": "ZBHEbKQS7KeJHKICLgC8q08oB9QeNSer6v7VA8l9zfA=",
                     "mmd": 86400,
                     "state": {
-                        "usable": {
-                            "timestamp": "2024-11-26T18:10:24Z",
-                            "version": "316"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -1543,9 +1620,9 @@
                     "log_id": "SZybad4dfOz8Nt7Nh2SmuFuvCoeAGdFVUvvp6ynd+MM=",
                     "mmd": 86400,
                     "state": {
-                        "usable": {
-                            "timestamp": "2024-11-26T18:12:06Z",
-                            "version": "321"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -1833,13 +1910,9 @@
                     "log_id": "JS+Uwisp6W6fQRpyBytpXFtS/5epDSVAu/zcUexN7gs=",
                     "mmd": 86400,
                     "state": {
-                        "readonly": {
-                            "final_tree_head": {
-                                "sha256_root_hash": "N7bqzTXnPktVFG8/h3gi5pcuxCo+mfWyv+XlIIS4cEU=",
-                                "tree_size": 65240567
-                            },
-                            "timestamp": "2025-09-18T17:20:00Z",
-                            "version": "477"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -1875,13 +1948,9 @@
                     "log_id": "VmzVo3a+g9/jQrZ1xJwjJJinabrDgsurSaOHfZqzLQE=",
                     "mmd": 86400,
                     "state": {
-                        "readonly": {
-                            "final_tree_head": {
-                                "sha256_root_hash": "ONxslVVBTXcSuBVlFOVDuNQoTCdDNLCRVHoHfNLMZfo=",
-                                "tree_size": 88744201
-                            },
-                            "timestamp": "2025-09-18T17:20:00Z",
-                            "version": "480"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -1934,9 +2003,9 @@
                     "log_id": "0W6ppWgHfmY1oD83pd28A6U8QRIU1IgY9ekxsyPLlQQ=",
                     "mmd": 86400,
                     "state": {
-                        "usable": {
-                            "timestamp": "2025-09-15T22:32:30Z",
-                            "version": "430"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -2019,9 +2088,9 @@
                     "log_id": "FoMtq/CpJQ8P8DqlRf/Iv8gj0IdL9gQpJ/jnHzMT9fo=",
                     "mmd": 86400,
                     "state": {
-                        "usable": {
-                            "timestamp": "2025-09-15T22:33:45Z",
-                            "version": "435"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -2249,13 +2318,9 @@
                     "log_id": "GYbUxyiqb/66A294Kk0BkarOLXIxD67OXXBBLSVMx9Q=",
                     "mmd": 86400,
                     "state": {
-                        "readonly": {
-                            "final_tree_head": {
-                                "sha256_root_hash": "deSRNfTNPgd9wfzoXIznvi+QUTxuK0R+daC6JGKGK3Q=",
-                                "tree_size": 598614696
-                            },
-                            "timestamp": "2025-12-11T16:28:56Z",
-                            "version": "496"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "temporal_interval": {
@@ -2314,9 +2379,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://mon.sycamore.ct.letsencrypt.org/2026h1/",
                     "state": {
-                        "usable": {
-                            "timestamp": "2025-11-17T21:04:06Z",
-                            "version": "447"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "submission_url": "https://log.sycamore.ct.letsencrypt.org/2026h1/",
@@ -2390,9 +2455,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://mon.willow.ct.letsencrypt.org/2026h1/",
                     "state": {
-                        "usable": {
-                            "timestamp": "2025-11-17T21:04:07Z",
-                            "version": "450"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "submission_url": "https://log.willow.ct.letsencrypt.org/2026h1/",
@@ -2665,9 +2730,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://luoshu2027.trustasia.com/luoshu2027/",
                     "state": {
-                        "pending": {
-                            "timestamp": "2026-01-29T02:31:37Z",
-                            "version": "498"
+                        "qualified": {
+                            "timestamp": "2026-09-16T23:53:32Z",
+                            "version": "522"
                         }
                     },
                     "submission_url": "https://luoshu2027.trustasia.com/luoshu2027/",
@@ -2711,9 +2776,9 @@
                     "mmd": 86400,
                     "monitoring_url": "https://tuscolo2026h1.skylight.geomys.org/",
                     "state": {
-                        "usable": {
-                            "timestamp": "2025-11-17T21:04:09Z",
-                            "version": "456"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "submission_url": "https://tuscolo2026h1.sunlight.geomys.org/",
@@ -2815,9 +2880,9 @@
                     "mmd": 86400,
                     "monitoring_url": "https://gouda2026h1.mon.ct.ipng.ch/",
                     "state": {
-                        "usable": {
-                            "timestamp": "2025-11-17T21:04:10Z",
-                            "version": "461"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "submission_url": "https://gouda2026h1.log.ct.ipng.ch/",
@@ -2910,9 +2975,9 @@
                     "mmd": 60,
                     "monitoring_url": "https://halloumi2026h1.mon.ct.ipng.ch/",
                     "state": {
-                        "usable": {
-                            "timestamp": "2026-03-30T19:10:04Z",
-                            "version": "508"
+                        "rejected": {
+                            "timestamp": "2026-10-05T22:09:32Z",
+                            "version": "525"
                         }
                     },
                     "submission_url": "https://halloumi2026h1.log.ct.ipng.ch/",
@@ -2980,7 +3045,53 @@
                     "tls_only": true
                 }
             ]
+        },
+        {
+            "email": [
+                "ct-log-op@microsec.hu",
+                "ct-log-rep@microsec.hu"
+            ],
+            "logs": [],
+            "name": "Microsec zrt.",
+            "tiled_logs": [
+                {
+                    "description": "Microsec e-Szigno 'eszigno2027h1'",
+                    "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhuG9m7D8nlSquWGaAF0NXc0ClYZYpEipNa/NeThGlber9tzMoHLRQXncwNBBqcxbXOannRTI/+utdT7wP9S7Jw==",
+                    "log_id": "eBAmYgxXrnCeBgs/iwSfqrh6aXhhDP+YpDWqAgNwe9k=",
+                    "mmd": 60,
+                    "monitoring_url": "https://eszigno2027h1.mon.ct.e-szigno.hu/",
+                    "state": {
+                        "pending": {
+                            "timestamp": "2026-09-16T23:52:31Z",
+                            "version": "512"
+                        }
+                    },
+                    "submission_url": "https://eszigno2027h1.log.ct.e-szigno.hu/",
+                    "temporal_interval": {
+                        "end_exclusive": "2027-07-01T00:00:00Z",
+                        "start_inclusive": "2027-01-01T00:00:00Z"
+                    }
+                },
+                {
+                    "description": "Microsec e-Szigno 'eszigno2027h2'",
+                    "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/XDM4otADNamGuQ1qjcAy+VMdPw75EQtjCEZTBnmJy5QhzHpPReQjYGrLhKuWGXlQJ2AxeVl6/0vm/aRcpsBlg==",
+                    "log_id": "GrnppF/Ct4QLH+fciv7lRpXau5p8I9NfpTclu4k6md0=",
+                    "mmd": 60,
+                    "monitoring_url": "https://eszigno2027h2.mon.ct.e-szigno.hu/",
+                    "state": {
+                        "pending": {
+                            "timestamp": "2026-09-16T23:52:56Z",
+                            "version": "513"
+                        }
+                    },
+                    "submission_url": "https://eszigno2027h2.log.ct.e-szigno.hu/",
+                    "temporal_interval": {
+                        "end_exclusive": "2028-01-01T00:00:00Z",
+                        "start_inclusive": "2027-07-01T00:00:00Z"
+                    }
+                }
+            ]
         }
     ],
-    "version": "511"
+    "version": "525"
 }
