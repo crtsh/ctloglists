@@ -4,11 +4,11 @@ go 1.26.0
 
 require (
 	github.com/google/certificate-transparency-go v1.4.0
-	software.sslmate.com/src/certspotter v0.26.0
+	software.sslmate.com/src/certspotter v0.26.2
 )
 
 require (
 	github.com/go-logr/logr v1.4.4 // indirect
-	golang.org/x/crypto v0.57.0 // indirect
+	golang.org/x/crypto v0.58.0 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
 )
