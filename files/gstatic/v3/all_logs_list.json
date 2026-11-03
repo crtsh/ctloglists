@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "95.17",
-  "log_list_timestamp": "2026-10-30T13:41:51Z",
+  "version": "96.0",
+  "log_list_timestamp": "2026-11-03T13:38:43Z",
   "operators": [
     {
       "name": "Google",
@@ -1303,8 +1303,8 @@
           "monitoring_url": "https://tile-luoshu2028h1.trustasia.com/luoshu2028h1/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-10-02T19:00:00Z"
+            "qualified": {
+              "timestamp": "2026-11-03T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -1320,8 +1320,8 @@
           "monitoring_url": "https://tile-luoshu2028h2.trustasia.com/luoshu2028h2/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-10-02T19:00:00Z"
+            "qualified": {
+              "timestamp": "2026-11-03T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -1337,8 +1337,8 @@
           "monitoring_url": "https://tile-taiji2028h1.trustasia.com/taiji2028h1/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-10-02T19:00:00Z"
+            "qualified": {
+              "timestamp": "2026-11-03T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -1354,8 +1354,8 @@
           "monitoring_url": "https://tile-taiji2028h2.trustasia.com/taiji2028h2/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-10-02T19:00:00Z"
+            "qualified": {
+              "timestamp": "2026-11-03T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -2371,6 +2371,14 @@
           }
         }
       ]
+    },
+    {
+      "name": "SwissSign",
+      "email": [
+        "ct@swisssign.com"
+      ],
+      "logs": [],
+      "tiled_logs": []
     }
   ]
 }
