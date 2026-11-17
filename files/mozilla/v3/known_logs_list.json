@@ -1,5 +1,5 @@
 {
-  "log_list_timestamp": "2026-10-20T21:26:23+01:00",
+  "log_list_timestamp": "2026-11-03T20:15:47Z",
   "operators": [
     {
       "name": "Google",
@@ -799,6 +799,70 @@
             },
             "usable": {
               "timestamp": "2026-02-09T10:52:20Z"
+            }
+          }
+        },
+        {
+          "description": "TrustAsia Luoshu2028h1",
+          "log_id": "cd1QREFkibQDp3c0FPKGnt4CnXEI84DXfoJshKW/fls=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJkPBruid0R0HTLOABc0k17KKS1ZLZQVtlE7qsuauDs+khqu9M4BygSjziUlvQLdAonmbOr3wIDJK1JkBBRhGxA==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-11-03T20:15:47Z"
+            },
+            "usable": {
+              "timestamp": "2026-12-29T20:26:23Z"
+            }
+          }
+        },
+        {
+          "description": "TrustAsia Luoshu2028h2",
+          "log_id": "jap0vUvSSHaUVxo2MsA8HZSVk3N5615qDROINcMzR8k=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWRv8wFzS8rpjgT7uAby2nouThLq8QIPdtvY9E3BiJq0V8lmnB9QkoFrNYMssyvznPnfOkz76UNeYjKKszivytQ==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-11-03T20:15:47Z"
+            },
+            "usable": {
+              "timestamp": "2026-12-29T20:26:23Z"
+            }
+          }
+        },
+        {
+          "description": "TrustAsia Taiji2028h1",
+          "log_id": "zVMsH8M+555WnWLXjKJmKkfeR5AsQ2zq+JS5GDG0BXw=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGEE4GWDYuEedkPT1yrYUcEP3dxuABreEhr/OfwHDBO/V3l3fmzp139HwtwukZRWJUdxNBeUYJTEqHAsDGEvfFQ==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-11-03T20:15:47Z"
+            },
+            "usable": {
+              "timestamp": "2026-12-29T20:26:23Z"
+            }
+          }
+        },
+        {
+          "description": "TrustAsia Taiji2028h2",
+          "log_id": "0J1XydPITy4G3x5te1QjepibtE1vlbKeTR/dmG3ySq4=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/fyzIWC9TdHeK/NixOIGN+ZyNMk6dHqKqjlbaGnUztxlzYH0bbH5AtnbwTO77NSMpVBCt6rY8geRiCr1tp6yyQ==",
+          "submission_url": "",
+          "monitoring_url": "",
+          "mmd": 0,
+          "state": {
+            "qualified": {
+              "timestamp": "2026-11-03T20:15:47Z"
+            },
+            "usable": {
+              "timestamp": "2026-12-29T20:26:23Z"
             }
           }
         }
