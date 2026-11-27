@@ -1818,54 +1818,6 @@
       "logs": [
       ],
       "tiled_logs": [
-        {
-          "description": "Hongkou 2027h1",
-          "log_id": "/6sV+04gOrNi7YekbpOjxEN0g7eWMLB4ZcY2qA4os04=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzwbUgiGYvzBnQqaTLql29WmlZ6LZJ2Svv5Z+j0n2ITB3ZO4qILxdtSfyR+K/foDjjDOFeomWZ3DmTKexNWKgBw==",
-          "submission_url": "https://ct-2027h1-sunlight.sheca.com",
-          "monitoring_url": "https://ct-2027h1-bucket.sheca.com",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2027-01-01T00:00:00Z",
-            "end_exclusive": "2027-07-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Hongkou 2027h2",
-          "log_id": "4dKdGNWYRqtrkGI4apITCdTpLfH53HY9uCEBs7uuIdc=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkVFqxc87Jbp+gh24G7/+9D4CfY3jiOgKM6958e732nkSdPXVkf+hecmjU+MzrnFGbgPrg16aucNxVok6ntBaaw==",
-          "submission_url": "https://ct-2027h2-sunlight.sheca.com",
-          "monitoring_url": "https://ct-2027h2-bucket.sheca.com",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2027-07-01T00:00:00Z",
-            "end_exclusive": "2028-01-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Pudong 2028h1",
-          "log_id": "sDXT6fTaACkCGHHEW6UpidrdUb2Mnota0zrt0LP1xC0=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEa4TAYlRRZLhZTlvKkgG6vy8Ze1WPmenM3RnFF/UojCsWLG50UkGC/mhIVUURy6Kfx1PE/134+oH6sMHbh6AC3Q==",
-          "submission_url": "https://ct-2028h1-sunlight.sheca.com",
-          "monitoring_url": "https://ct-2028h1-bucket.sheca.com",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2028-01-01T00:00:00Z",
-            "end_exclusive": "2028-07-01T00:00:00Z"
-          }
-        },
-        {
-          "description": "Pudong 2028h2",
-          "log_id": "6yfKv1JFhTd94npcCJdaCgAuI9K98ksx0URHxEzTYDM=",
-          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEo5psphUD2SnYs40GW7/32j3LbqxWIquEYecGqI7NaJaUndirrHmhBwd+3iQEw75PLsU8WLkzxH2UH6GM4z+3/A==",
-          "submission_url": "https://ct-2028h2-sunlight.sheca.com",
-          "monitoring_url": "https://ct-2028h2-bucket.sheca.com",
-          "mmd": 60,
-          "temporal_interval": {
-            "start_inclusive": "2028-07-01T00:00:00Z",
-            "end_exclusive": "2029-01-01T00:00:00Z"
-          }
-        }
       ]
     },
     {
